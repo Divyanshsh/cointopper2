@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex; 
+    display: flex;
+    /* justify-content: space-around;  */
+    align-items: center;
+}
+
+.header img{
+    height: 45px;
+    width: 170px;
+    margin: 22px 0 0 63px;
+}
+
+.links{
+    /* width: 514px;
+    height: 19px;
+    position: absolute;
+    top: 47px;
+    left: 686px;  */
+    margin: 20px 0 0 550px;
+}
+
+.links a{
+    text-decoration: none;
+    padding: 10px;
+    color: #202020;
+    letter-spacing: 0;
+    line-height: 19px;
+    padding: 0 20px 0 20px;
+}
+
+.links a:first-child{
+    color: #003BB2;
+}
+
+.info{
+    display: flex;
+    height: 68px;
+    background-image: linear-gradient(to top right,#1C60B8,#3C99DD);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info h4{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.info img{
+    width: 9px;
+    height: 7.7px;
+}
+
+.section{
+    display: flex;
+}
+
+ .section h3{
+    font-size: 32px;
+    margin: 30px 0 0 130px;
+    font-size: 32px;
+    color: #505050;
+    height: 41px;
+    width: 240px;
+}
+
+.container-1{
+    display: flex;
+    margin: 20px 0 0 110px;
+}
+
+.box{
+    height: 79px;
+    width: 135px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.box1{
+    background-image:linear-gradient(to top left,#FAD961, #F76B1C);;
+}
+
+.box2{
+    background-image:linear-gradient(to top left,#B4EC51, #429321);;
+}
+
+.box3{
+    background-image:linear-gradient(to top left,#FAD961,#F76B1C);;
+}
+
+.box4{
+    background-image:linear-gradient(to top left,#B4EC51 ,#429321);;
+}
+
+.box5{
+    background-image:linear-gradient(to top left,#FAD961,#F76B1C);;
+}
+
+.box6{
+    background-image:linear-gradient(to top left,#3FCDDF,#2B85AB);;
+}
+
+.container-1 h6{
+    font-size: 11px;
+    padding: 5px 0 0 8px;
+    color: rgba(255,255,255,0.70);
+    letter-spacing: -0.17px;
+}
+
+.container-1 a{
+    text-decoration: none;
+}
+
+.container-1 h5{
+    font-size: 20px;
+    letter-spacing: -0.22px;
+    width: 77px;
+    height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 3px 0 0 6px;
+}
+
+.container-1 img{
+    height: 7px;
+    width: 7px;
+    margin: 0 0 0 8px;
+}
