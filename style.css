@@ -63,25 +63,16 @@
     display: flex;
 }
 
- .section h3{
-    font-size: 32px;
-    margin: 30px 0 0 130px;
-    font-size: 32px;
-    color: #505050;
-    height: 41px;
-    width: 240px;
-}
-
 .container-1{
     display: flex;
-    margin: 20px 0 0 110px;
+    margin: 20px 0 0 100px;
 }
 
 .box{
     height: 79px;
     width: 135px;
     border-radius: 10px;
-    margin: 8px;
+    /* margin: 5px; */
 }
 
 .box1{
@@ -134,3 +125,112 @@
     width: 7px;
     margin: 0 0 0 8px;
 }
+
+.section{
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0 130px;
+}
+
+.section h3{
+    font-size: 32px;
+    font-size: 32px;
+    color: #505050;
+    height: 41px;
+    width: 240px;
+}
+
+.next{
+    background-color: #CDCED5;
+    height: 36px;
+    width: 103px;
+    border-radius: 10px;
+    position: relative;
+    left: 45%;
+}
+
+.section img{
+    height: 13px;
+    width: 14px;
+    margin: 10px 0 0 5px;
+}
+
+.section a{
+    text-decoration: none;
+    margin: 0 0 0 11px;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+}
+
+.input{
+    position: relative;
+    left: 45%;
+}
+
+.input input{
+    width: 162px;
+    height: 36px;
+    background-color: #CDCED5;
+    border-radius: 9px;
+    outline: none;
+    border: 0;
+    margin-left: 5px;
+}
+
+.input img{
+    padding-left: 15px;
+}
+
+::placeholder{
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+.usd{
+    height: 36px;
+    width: 58px;
+    background-color: #CDCED5;
+    border-radius: 10px;
+    margin-left: 5px;
+    position: relative;
+    left: 45%;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 15px 20px 0;
+    text-transform: uppercase;
+    color: #245DA6;
+    letter-spacing: -0.27px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 15px 20px 0;
+}
+
+.number{
+    color: #CDCED5;
+}
+
+.bit-logo{
+    width: 31px;
+    height: 33px;
+
+}
+
+.red-graph{
+    height: 45px;
+    width: 75px;
+}
+
+.arrow{
+    width: 8px;
+    height: 9px;
+}
+
