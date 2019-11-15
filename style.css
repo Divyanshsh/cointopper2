@@ -69,10 +69,9 @@
 }
 
 .box{
-    height: 79px;
+    height: 80px;
     width: 135px;
     border-radius: 10px;
-    /* margin: 5px; */
 }
 
 .box1{
@@ -129,7 +128,7 @@
 .section{
     display: flex;
     align-items: center;
-    margin: 30px 0 0 130px;
+    margin: 20px 0 20px 105px;
 }
 
 .section h3{
@@ -146,7 +145,7 @@
     width: 103px;
     border-radius: 10px;
     position: relative;
-    left: 45%;
+    left: 48%;
 }
 
 .section img{
@@ -166,7 +165,7 @@
 
 .input{
     position: relative;
-    left: 45%;
+    left: 48%;
 }
 
 .input input{
@@ -184,7 +183,7 @@
 }
 
 ::placeholder{
-    font-size: 17px;
+    /* font-size: 17px; */
     color: #FFFFFF;
     padding-left: 5px;
 }
@@ -196,13 +195,13 @@
     border-radius: 10px;
     margin-left: 5px;
     position: relative;
-    left: 45%;
+    left: 48%;
 }
 
 .heading{
     display: flex;
     justify-content: space-evenly;
-    margin: 30px 15px 20px 0;
+    margin: 30px 0;
     text-transform: uppercase;
     color: #245DA6;
     letter-spacing: -0.27px;
@@ -210,12 +209,17 @@
 
 .details{
     display: flex;
-    justify-content: space-evenly;
-    margin: 30px 15px 20px 0;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(0, 89, 178, .3);
 }
+
+.details h4{
+    margin-left: 78px;
+ }
 
 .number{
     color: #CDCED5;
+    padding-left: 5px;
 }
 
 .bit-logo{
@@ -224,13 +228,175 @@
 
 }
 
-.red-graph{
-    height: 45px;
-    width: 75px;
+.graph{
+    height: 50px;
+    width: 80px;
 }
 
 .arrow{
     width: 8px;
     height: 9px;
+    padding-right: 4px;
 }
 
+.name{
+    font-size: 16px;
+    color: #3D3D3D;
+    letter-spacing: -0.39px;
+}
+
+.name-2{
+   opacity: 0.5;
+   font-size: 14px;
+   color: #9B9EAD;
+   letter-spacing: -0.34px;
+}
+
+.change{
+   font-size: 16px;
+   color: #C7410E;
+   letter-spacing: -0.18px;
+}
+
+.change img{
+    padding-right: 4px;
+}
+
+.change-2{
+  color: #58B522;
+  letter-spacing: -0.18px;
+  text-align: right;
+}
+
+.change-2 img{
+    padding-right: 4px;
+}
+
+.price{
+    font-size: 16px;
+    color: #003BB2;
+    letter-spacing: -0.27px;
+}
+
+.page-link{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.page-link a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    height: 29px;
+    width: 19px;
+    background: #CDCED5;
+    border-radius: 9px;
+    margin: 4px;
+    padding: 7px 0 0 12px;
+}
+
+.image img{
+    height: 260px;
+    width: 100%;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post{
+    width: 300px;
+    height: 354px;
+    border: 2px solid #CDCED5;
+    border-radius: 15px;
+}
+
+.post h4{
+   font-size: 22px;
+   color: #003BB2;
+   margin: 10px 0 0 7px;
+}
+
+.post img{
+    height: 215px;
+    width: 300px;
+}
+
+.post p{
+    font-size: 16px;
+    color: #3D3D3D;
+    margin: 20px 0 0 7px;
+}
+
+.upper-footer{
+    margin-top: 30px;
+    background: #E7EBED;
+    display: flex;
+    height: 292px;
+    justify-content: space-around;
+}
+
+.uf-one img{
+    width: 196px;
+    height: 41px;
+}
+
+.uf >:first-child{
+    margin-bottom: 20px;
+}
+
+.uf-two, .uf-three, .uf-four, .uf-five{
+    padding-top: 15px;
+}
+
+.uf{
+    margin-top: 30px;
+}
+
+.uf-five a{
+    width: 27px;
+    height: 27px;
+    background: #245DA6;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+.uf a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #3D3D3D;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.text{
+    color: #245DA6;
+    letter-spacing: -0.27px;
+}
+
+.uf-five input{
+    background: #BFC6CB;
+    border-radius: 8px;
+    width: 160px;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    margin-left: 5px;
+}
+
+.arrow-img{
+    width: 12px;
+    height: 12px;
+}
+
+.download-app {
+    width: 91px;
+    height: 30px;
+    margin-top: 55px;
+    padding: 4px;
+}
