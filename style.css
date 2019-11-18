@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+#menu-bar{
+    display: none;
+}
+
 .header img{
     height: 45px;
     width: 170px;
@@ -126,7 +130,6 @@
     display: flex;
     align-items: center;
     margin: 20px 0 20px 105px;
-    /* justify-content: space-between; */
 }
 
 .section h3{
@@ -139,21 +142,22 @@
 
 .next{
     background-color: #CDCED5;
-    height: 36px;
-    width: 103px;
+    /* height: 36px;
+    width: 103px; */
     border-radius: 10px;
+    padding: 5px;
     position: relative;
     left: 48%;
 }
 
 .next a{
-    margin: 0 0 0 11px;
+    margin: 0 0 0 5px;
 }
 
 .section img{
     height: 13px;
     width: 14px;
-    margin: 10px 0 0 5px;
+    margin: 5px 0 0 2px;
 }
 
 .section a{
@@ -179,18 +183,12 @@
     margin-left: 5px;
 }
 
-/* .input img{
-    padding-left: 15px;
-} */
-
 ::placeholder{
     color: #FFFFFF;
     padding-left: 5px;
 }
 
 .usd{
-    /* height: 36px;
-    width: 58px; */
     background-color: #CDCED5;
     border-radius: 10px;
     padding: 7px;
