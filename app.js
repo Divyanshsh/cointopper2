@@ -6,11 +6,4 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         arrows: false
     });
-
-    // $('.posts').slick({
-    //     infinite: true,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     arrows: false
-    //   });
   });

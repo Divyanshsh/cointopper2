@@ -37,7 +37,7 @@
 .info{
     display: flex;
     height: 68px;
-    background-image: linear-gradient(to top right,#1C60B8,#3C99DD);
+    background: linear-gradient(to right,#1c60b8 1%,#3c99dd 100%);
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
@@ -126,6 +126,7 @@
     display: flex;
     align-items: center;
     margin: 20px 0 20px 105px;
+    /* justify-content: space-between; */
 }
 
 .section h3{
@@ -145,6 +146,10 @@
     left: 48%;
 }
 
+.next a{
+    margin: 0 0 0 11px;
+}
+
 .section img{
     height: 13px;
     width: 14px;
@@ -153,7 +158,6 @@
 
 .section a{
     text-decoration: none;
-    margin: 0 0 0 11px;
     font-size: 15px;
     color: #FFFFFF;
     letter-spacing: -0.18px;
@@ -175,9 +179,9 @@
     margin-left: 5px;
 }
 
-.input img{
+/* .input img{
     padding-left: 15px;
-}
+} */
 
 ::placeholder{
     color: #FFFFFF;
@@ -185,10 +189,11 @@
 }
 
 .usd{
-    height: 36px;
-    width: 58px;
+    /* height: 36px;
+    width: 58px; */
     background-color: #CDCED5;
     border-radius: 10px;
+    padding: 7px;
     margin-left: 5px;
     position: relative;
     left: 48%;
@@ -197,7 +202,7 @@
 .heading{
     display: flex;
     justify-content: space-between;
-    margin: 30px 100px 30px 140px;
+    margin: 30px 85px 30px 120px;
     text-transform: uppercase;
     color: #245DA6;
     letter-spacing: -0.27px;
@@ -206,13 +211,9 @@
 .details{
     display: flex;
     justify-content: space-between;
-    margin: 30px 120px;
+    margin: 30px 110px;
     border-bottom: 1px solid rgba(0, 89, 178, .08);
 }
-
-/* .details h4{
-    margin-left: 78px;
- } */
 
 .number{
     color: #CDCED5;
@@ -392,7 +393,7 @@
     height: 12px;
 }
 
-.download-app {
+.download-app{
     width: 91px;
     height: 30px;
     margin-top: 55px;
