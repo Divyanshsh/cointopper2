@@ -9,6 +9,11 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    margin: 10px 0 20px 0;
+}
+
+.menu-bg{
+    display: none;
 }
 
 #menu-bar{
@@ -60,12 +65,12 @@
 
 .container-1{
     display: flex;
-    margin: 20px 0 0 100px;
+    margin: 20px 0 0 20px;
 }
 
 .box{
-    height: 80px;
-    width: 135px;
+    height: 100px;
+    width: 200px;
     border-radius: 10px;
     margin-bottom: 26px;
 }
@@ -121,9 +126,9 @@
 }
 
 .container-1 img{
-    height: 7px;
-    width: 7px;
-    margin: 0 0 0 8px;
+    height: 10px;
+    width: 10px;
+    margin: 7px 0 0 8px;
 }
 
 .section{
@@ -268,8 +273,7 @@
     padding-right: 4px;
 }
 
-.price{
-    font-size: 16px;
+.prices{
     color: #003BB2;
     letter-spacing: -0.27px;
 }

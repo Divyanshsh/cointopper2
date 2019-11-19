@@ -24,12 +24,12 @@
     }
 
     .container-1{
-        margin: 20px 0 0 100px;
+        margin: 20px 0 0 15px;
     }
     
     .box{
-        height: 70px;
-        width: 120px;
+        height: 95px;
+        width: 195px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -60,13 +60,14 @@
         left: 42%;
     }
 
+   
     .container-1{
-        margin: 20px 0 0 110px;
+        margin: 20px 0 0 10px;
     }
     
     .box{
-        height: 70px;
-        width: 120px;
+        height: 85px;
+        width: 180px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -108,12 +109,12 @@
     }
 
     .container-1{
-        margin: 20px 0 0 80px;
+        margin: 20px 0 0 10px;
     }
     
     .box{
-        height: 70px;
-        width: 110px;
+        height: 85px;
+        width: 160px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -170,16 +171,15 @@
     }
 
     .container-1{
-        margin: 20px 0 0 50px;
+        margin: 20px 0 0 10px;
     }
     
     .box{
-        height: 70px;
-        width: 110px;
+        height: 85px;
+        width: 147px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
-
 
     .lower-footer-link{
         position: relative;
@@ -247,12 +247,12 @@
     }
 
     .container-1{
-        margin: 20px 0 0 30px;
+        margin: 10px 0 0 10px;
     }
     
     .box{
-        height: 75px;
-        width: 115px;
+        height: 85px;
+        width: 130px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -286,6 +286,11 @@
     #menu-bar{
         display: block;
     }
+
+    .menu-bg{
+        display: block;
+    }
+    
     
     .section{
         margin: 20px 0 20px 50px;
@@ -296,12 +301,12 @@
     }
     
     .container-1{
-        margin: 20px 0 0 20px;
+        margin: 10px 0 0 5px;
     }
     
     .box{
-        height: 75px;
-        width: 115px;
+        height: 80px;
+        width: 120px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -452,12 +457,12 @@
     }
 
     .container-1{
-        margin: 20px 0 0 60px;
+        margin: 10px 0 0 18px;
     }
-
+    
     .box{
-        height: 75px;
-        width: 115px;
+        height: 70px;
+        width: 130px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -526,12 +531,12 @@
     }
 
     .container-1{
-        margin: 20px 0 0 20px;
+        margin: 20px 0 0 12px;
     }
 
     .box{
         height: 75px;
-        width: 115px;
+        width: 125px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -585,6 +590,11 @@
         height: 230px;
     }
 
+    .upper-footer{
+        flex-wrap: wrap;  
+    }
+
+
     .lower-footer-link{
         position: relative;
         left: 30%;
@@ -606,7 +616,7 @@
 
      .info h4{
          font-size: 12px;
-         margin: 0 50px;
+         /* margin: 0 50px; */
      }
 
     .section{
@@ -618,12 +628,12 @@
     }
 
     .container-1{
-        margin: 20px 0 0 60px;
+        margin: 20px 0 0 20px;
     }
 
     .box{
         height: 80px;
-        width: 150px;
+        width: 188px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -652,36 +662,33 @@
     }
 
     .heading{
-        margin: 30px 20px 30px 50px;
+        margin: 30px 50px 30px 40px;
     }
 
     .details{
-        margin: 30px 50px 30px 40px;
+        margin: 30px 50px 30px 25px;
     }
 
     .details h4{
        font-size: 14px;
+       padding: 0 0 0 15px;
     }
 
     .detail-4, .detail-5{
         display: none;
     }
 
-    .heading{
-        justify-content: stretch;
-    }
-
-    .heading h6{
+    /* .heading h6{
         padding: 0 105px 0 0;
-    }
+    } */
 
-    .price, .graph-text, .charge, .coin, .cap, .graph{
+    .coin, .cap{
         display: none;
     }
 
-    .other-h6{
+    /* .other-h6{
         display: none;
-    }
+    } */
 
     .post{
         width: 220px;
@@ -715,9 +722,680 @@
         flex-wrap: wrap;
     }
 
+    .upper-footer{
+        height: 420px;
+        padding: 10px;
+    } 
+
+    .download-app{
+        margin-top: 25px;
+    }
+
+    .lower-footer h4{
+        margin-left: 20px;
+    }
+
     .lower-footer-link{
         position: relative;
         left: 25%;
+    }
+
+}
+
+
+@media screen and (max-device-width: 600px){
+    
+    .header img{
+        height: 40px;
+        width: 160px;
+        margin: 25px 0 0 40px;
+    }
+
+    .info{
+        justify-content: center;
+    }
+
+     .info h4{
+         font-size: 12px;
+         margin: 0 50px;
+     }
+
+    .section{
+        margin: 20px 0 20px 50px;
+    }
+
+    .section h3{
+    font-size: 28px;
+    }
+
+    .container-1{
+        margin: 20px 0 0 10px;
+    }
+
+    .box{
+        height: 80px;
+        width: 168px;
+        border-radius: 10px;
+        margin-bottom: 26px;
+    }
+
+    .next{
+        display: none;
+    }
+
+    .input{
+        position: relative;
+        left: 8%;
+    }
+
+    .input input{
+        width: 170px;
+        height: 30px;
+    }
+
+    .usd{
+        position: relative;
+        left: 8%;
+    }
+
+    .usd{
+        padding: 4px;
+    }
+
+    .heading{
+        margin: 30px 50px 30px 40px;
+    }
+
+    .details{
+        margin: 30px 50px 30px 25px;
+    }
+
+    .details h4{
+       font-size: 14px;
+       padding: 0 0 0 15px;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+    /* .heading h6{
+        padding: 0 105px 0 0;
+    } */
+
+    .coin, .cap{
+        display: none;
+    }
+
+    /* .other-h6{
+        display: none;
+    } */
+
+    .post{
+        width: 220px;
+        height: 255px;
+    }
+
+    .post img{
+        height: 140px;
+        width: 220px;
+    }
+
+    .post h4{
+        margin: 10px 0 0 7px;
+        font-size: 16px;
+    }
+
+    .post p{
+        margin: 10px 0 0 7px;
+        font-size: 14px;
+    }
+
+    .post-2{
+        display: none;
+    }
+
+    .image img{
+        height: 200px;
+    }
+
+    .section{
+        flex-wrap: wrap;
+    }
+
+    .upper-footer{
+        height: 420px;
+        padding: 10px;
+    } 
+
+    .download-app{
+        margin-top: 25px;
+    }
+
+    .lower-footer h4{
+        margin-left: 20px;
+    }
+
+    .lower-footer-link{
+        position: relative;
+        left: 25%;
+    }
+
+}
+
+@media screen and (max-device-width: 550px){
+    
+    .header img{
+        height: 40px;
+        width: 160px;
+        margin: 25px 0 0 40px;
+    }
+
+    .info{
+        justify-content: center;
+    }
+
+     .info h4{
+         font-size: 12px;
+         margin: 0 50px;
+     }
+
+    .section{
+        margin: 20px 0 20px 50px;
+    }
+
+    .section h3{
+      font-size: 28px;
+      width: 340px;
+    }
+
+    .container-1{
+        margin: 20px 0 0 20px;
+    }
+
+    .box{
+        height: 85px;
+        width: 228px;
+        border-radius: 10px;
+        margin-bottom: 26px;
+    }
+
+    .next{
+        display: none;
+    }
+
+    .input{
+        position: relative;
+        left: 0;
+    }
+
+    .input input{
+        width: 347px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .usd{
+        position: relative;
+        left: 0;
+    }
+
+    .usd{
+        padding: 7px;
+    }
+
+    .heading{
+        margin: 30px 0;
+        justify-content: stretch;
+    }
+
+    .details{
+        margin: 30px 25px 30px 25px;
+    }
+
+    .details h4 {
+        font-size: 14px;
+        padding: 0 0 10px 22px;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+    .heading h6{
+        margin: 0 0 0 58px;
+    }
+
+    .coin, .cap{
+        display: none;
+    }
+
+    
+.page-link a{
+    height: 26px;
+    width: 17px;
+    margin: 3px;
+    padding: 5px 0 0 10px;
+}
+
+    .post{
+        width: 220px;
+        height: 255px;
+    }
+
+    .post img{
+        height: 140px;
+        width: 220px;
+    }
+
+    .post h4{
+        margin: 10px 0 0 7px;
+        font-size: 16px;
+    }
+
+    .post p{
+        margin: 10px 0 0 7px;
+        font-size: 14px;
+    }
+
+    .post-2{
+        display: none;
+    }
+
+    .image img {
+        height: 180px;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+
+    .upper-footer{
+        height: 420px;
+        padding: 10px;
+    } 
+
+    .download-app{
+        margin-top: 25px;
+    }
+
+    .lower-footer h4{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .lower-footer img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .graph, .graph-text, .charge{
+        display: none;
+    }
+
+    .lower-footer-link{
+        position: relative;
+        left: 18%;
+    }
+
+    #menu-bar{
+        position: absolute;
+        left: 87%;
+     }
+
+     #menu{
+         width: 27px;
+     }
+
+    /* .other-h6{
+        display: none;
+    } */
+
+}
+
+@media screen and (max-device-width: 500px){
+    
+    .header img{
+        height: 40px;
+        width: 160px;
+        margin: 25px 0 0 40px;
+    }
+
+    .info{
+        justify-content: center;
+    }
+
+     .info h4{
+         font-size: 12px;
+         margin: 0 50px;
+     }
+
+    .section{
+        margin: 20px 0 20px 50px;
+    }
+
+    .section h3{
+      font-size: 28px;
+      width: 340px;
+    }
+
+    .container-1{
+        margin: 20px 0 0 20px;
+    }
+
+    .box{
+        height: 85px;
+        width: 210px;
+        border-radius: 10px;
+        margin-bottom: 26px;
+    }
+
+    .next{
+        display: none;
+    }
+
+    .input{
+        position: relative;
+        left: 0;
+    }
+
+    .input input{
+        width: 347px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .usd{
+        position: relative;
+        left: 0;
+    }
+
+    .usd{
+        padding: 7px;
+    }
+
+    .heading{
+        margin: 30px 0;
+        justify-content: stretch;
+    }
+
+    .details {
+        margin: 30px 25px 30px 28px;
+    }
+
+    .details h4 {
+        font-size: 14px;
+        padding: 0 0 10px 22px;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+    .heading h6{
+        margin: 0 0 0 51px;
+    }
+
+    .coin, .cap{
+        display: none;
+    }
+
+    
+.page-link a{
+    height: 26px;
+    width: 17px;
+    margin: 3px;
+    padding: 5px 0 0 10px;
+}
+
+    .post{
+        width: 220px;
+        height: 255px;
+    }
+
+    .post-1{
+        display: none;
+    }
+
+    .post img{
+        height: 140px;
+        width: 220px;
+    }
+
+    .post h4{
+        margin: 10px 0 0 7px;
+        font-size: 16px;
+    }
+
+    .post p{
+        margin: 10px 0 0 7px;
+        font-size: 14px;
+    }
+
+    .post-2{
+        display: none;
+    }
+
+    .image img {
+        height: 180px;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+
+    .upper-footer{
+        height: 420px;
+        padding: 10px;
+    } 
+
+    .download-app{
+        margin-top: 25px;
+    }
+
+    .lower-footer h4{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .lower-footer img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .graph, .graph-text, .charge{
+        display: none;
+    }
+
+    .lower-footer-link{
+        position: relative;
+        left: 15%;
+    }
+
+    #menu-bar{
+        position: absolute;
+        left: 87%;
+     }
+
+     #menu{
+         width: 27px;
+     }
+
+    /* .other-h6{
+        display: none;
+    } */
+
+}
+
+@media screen and (max-device-width: 450px){
+    
+    .header img{
+        height: 40px;
+        width: 160px;
+        margin: 25px 0 0 40px;
+    }
+
+    .info{
+        justify-content: center;
+    }
+/* 
+     .info h4{
+         font-size: 12px;
+         margin: 0 50px;
+     } */
+
+    .section{
+        margin: 20px 0 20px 50px;
+    }
+
+    .section h3{
+      font-size: 28px;
+      width: 340px;
+    }
+
+    .container-1{
+        margin: 20px 0 0 20px;
+    }
+
+    .box{
+        height: 85px;
+        width: 190px;
+        border-radius: 10px;
+        margin-bottom: 26px;
+    }
+
+    .next{
+        display: none;
+    }
+
+    .input{
+        position: relative;
+        left: 0;
+    }
+
+    .input input{
+        width: 300px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .usd{
+        position: relative;
+        left: 0;
+    }
+
+    .usd{
+        padding: 7px;
+    }
+
+    .heading{
+        margin: 30px 0;
+        justify-content: stretch;
+    }
+
+    .heading h6{
+        margin: 0 0 0 45px;
+    }
+
+    .details {
+        margin: 30px 25px 30px 28px;
+    }
+
+    .details h4 {
+        font-size: 14px;
+        padding: 0 0 10px 18px;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+
+    .coin, .cap{
+        display: none;
+    }
+
+    
+   .page-link a{
+      height: 26px;
+      width: 17px;
+      margin: 3px;
+      padding: 5px 0 0 10px;
+   }
+
+    .post{
+        width: 280px;
+        height: 300px;
+    }
+
+    .post-1{
+        display: none;
+    }
+
+    .post img{
+        height: 192px;
+        width: 279px;
+    }
+
+    .post h4{
+        margin: 10px 0 0 7px;
+        font-size: 16px;
+    }
+
+    .post p{
+        margin: 10px 0 0 7px;
+        font-size: 14px;
+    }
+
+    .post-2{
+        display: none;
+    }
+
+    .image img {
+        height: 180px;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+
+    .upper-footer{
+        height: 420px;
+        padding: 10px;
+    } 
+
+    .download-app{
+        margin-top: 25px;
+    }
+
+    .lower-footer h4{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .lower-footer img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .graph, .graph-text, .charge{
+        display: none;
+    }
+
+    .lower-footer-link{
+        position: relative;
+        left: 15%;
+    }
+
+    .lower-footer h4{
+        width: 410px;
+        margin-left: 135px;
+    }
+    
+    .lower-footer{
+        flex-wrap: wrap;
+    }
+
+    .lower-footer-link{
+        position: relative;
+        left: 20%;
     }
 
 }
