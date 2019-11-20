@@ -1,9 +1,5 @@
 @media screen and (min-device-width: 1250px) and (max-device-width: 1350px){
     .next{
-        /* background-color: #CDCED5;
-        height: 36px;
-        width: 103px;
-        border-radius: 10px; */
         position: relative;
         left: 48%;
     }
@@ -15,10 +11,6 @@
     }
 
     .usd{
-        /* background-color: #CDCED5;
-        border-radius: 10px;
-        padding: 7px;
-        margin-left: 5px; */
         position: relative;
         left: 48%;
     }
@@ -29,7 +21,7 @@
     
     .box{
         height: 95px;
-        width: 195px;
+        width: 200px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -66,8 +58,8 @@
     }
     
     .box{
-        height: 85px;
-        width: 180px;
+        height: 90px;
+        width: 186px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -113,8 +105,8 @@
     }
     
     .box{
-        height: 85px;
-        width: 160px;
+        height: 90px;
+        width: 167px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -175,8 +167,8 @@
     }
     
     .box{
-        height: 85px;
-        width: 147px;
+        height: 90px;
+        width: 155px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -247,7 +239,7 @@
     }
 
     .container-1{
-        margin: 10px 0 0 10px;
+        margin: 10px 0 0 3px;
     }
     
     .box{
@@ -283,6 +275,10 @@
         display: none;
     }
 
+    .header img{
+        margin: 12px 0 0 50px;
+    }
+
     #menu-bar{
         display: block;
     }
@@ -301,12 +297,12 @@
     }
     
     .container-1{
-        margin: 10px 0 0 5px;
+        margin: 10px 0 0 12px;
     }
     
     .box{
-        height: 80px;
-        width: 120px;
+        height: 90px;
+        width: 125px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -457,12 +453,12 @@
     }
 
     .container-1{
-        margin: 10px 0 0 18px;
+        margin: 10px 0 0 10px;
     }
     
     .box{
-        height: 70px;
-        width: 130px;
+        height: 90px;
+        width: 142px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -531,12 +527,12 @@
     }
 
     .container-1{
-        margin: 20px 0 0 12px;
+        margin: 20px 0 0 8px;
     }
 
     .box{
-        height: 75px;
-        width: 125px;
+        height: 90px;
+        width: 130px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -607,16 +603,11 @@
     .header img{
         height: 40px;
         width: 160px;
-        margin: 25px 0 0 40px;
+        margin: 12px 0 0 40px;
     }
 
-    .info{
-        justify-content: center;
-    }
-
-     .info h4{
-         font-size: 12px;
-         /* margin: 0 50px; */
+    .info h4{
+        font-size: 12px;
      }
 
     .section{
@@ -628,12 +619,12 @@
     }
 
     .container-1{
-        margin: 20px 0 0 20px;
+        margin: 20px 0 0 12px;
     }
 
     .box{
-        height: 80px;
-        width: 188px;
+        height: 90px;
+        width: 190px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -674,9 +665,9 @@
        padding: 0 0 0 15px;
     }
 
-    .detail-4, .detail-5{
+    /* .detail-4, .detail-5{
         display: none;
-    }
+    } */
 
     /* .heading h6{
         padding: 0 105px 0 0;
@@ -746,9 +737,12 @@
 @media screen and (max-device-width: 600px){
     
     .header img{
-        height: 40px;
-        width: 160px;
-        margin: 25px 0 0 40px;
+        margin: 12px 0 0 40px;
+    }
+
+    #menu-bar{
+        position: absolute;
+        left: 86%;
     }
 
     .info{
@@ -773,8 +767,8 @@
     }
 
     .box{
-        height: 80px;
-        width: 168px;
+        height: 90px;
+        width: 175px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -886,9 +880,7 @@
 @media screen and (max-device-width: 550px){
     
     .header img{
-        height: 40px;
-        width: 160px;
-        margin: 25px 0 0 40px;
+        margin: 13px 0 0 40px;
     }
 
     .info{
@@ -901,23 +893,26 @@
      }
 
     .section{
-        margin: 20px 0 20px 50px;
+        margin: 15px 0 15px 25px;
     }
 
     .section h3{
-      font-size: 28px;
-      width: 340px;
+      width: 250px;
+    }
+
+    .section a{
+        width: 50px;
     }
 
     .container-1{
-        margin: 20px 0 0 20px;
+        margin: 10px 0 0 10px;
     }
 
     .box{
-        height: 85px;
-        width: 228px;
+        height: 90px;
+        width: 235px;
         border-radius: 10px;
-        margin-bottom: 26px;
+        margin-bottom: 10px;
     }
 
     .next{
@@ -930,7 +925,7 @@
     }
 
     .input input{
-        width: 347px;
+        width: 397px;
         height: 35px;
         margin: 0;
     }
@@ -941,7 +936,7 @@
     }
 
     .usd{
-        padding: 7px;
+        padding: 7px 0 7px 17px;
     }
 
     .heading{
@@ -1055,9 +1050,7 @@
 @media screen and (max-device-width: 500px){
     
     .header img{
-        height: 40px;
-        width: 160px;
-        margin: 25px 0 0 40px;
+        margin: 15px 0 0 40px;
     }
 
     .info{
@@ -1070,23 +1063,27 @@
      }
 
     .section{
-        margin: 20px 0 20px 50px;
+        margin: 15px 0 20px 25px;
+    }
+
+    .section a{
+        width: 50px;
     }
 
     .section h3{
       font-size: 28px;
-      width: 340px;
+      width: 250px;
     }
 
     .container-1{
-        margin: 20px 0 0 20px;
+        margin: 10px 0 0 10px;
     }
 
     .box{
-        height: 85px;
+        height: 90px;
         width: 210px;
         border-radius: 10px;
-        margin-bottom: 26px;
+        margin-bottom: 10px;
     }
 
     .next{
@@ -1099,7 +1096,7 @@
     }
 
     .input input{
-        width: 347px;
+        width: 325px;
         height: 35px;
         margin: 0;
     }
@@ -1110,7 +1107,7 @@
     }
 
     .usd{
-        padding: 7px;
+        padding: 7px 0 7px 18px;
     }
 
     .heading{
@@ -1148,8 +1145,8 @@
 }
 
     .post{
-        width: 220px;
-        height: 255px;
+       width: 275px;
+       height: 265px;
     }
 
     .post-1{
@@ -1157,8 +1154,8 @@
     }
 
     .post img{
-        height: 140px;
-        width: 220px;
+        height: 166px;
+        width: 275px;
     }
 
     .post h4{
@@ -1228,13 +1225,22 @@
 @media screen and (max-device-width: 450px){
     
     .header img{
-        height: 40px;
-        width: 160px;
-        margin: 25px 0 0 40px;
+        margin: 15px 0 0 40px;
+    }
+
+    #menu-bar{
+        position: absolute;
+        left: 82%;
     }
 
     .info{
-        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info h4{
+        margin: 0%;
+        padding: 24px;
     }
 /* 
      .info h4{
@@ -1243,23 +1249,22 @@
      } */
 
     .section{
-        margin: 20px 0 20px 50px;
+        margin: 15px 0 15px 25px;
     }
 
     .section h3{
-      font-size: 28px;
-      width: 340px;
+      width: 250px;
     }
 
     .container-1{
-        margin: 20px 0 0 20px;
+        margin: 10px 0 0 10px;
     }
 
     .box{
-        height: 85px;
+        height: 90px;
         width: 190px;
         border-radius: 10px;
-        margin-bottom: 26px;
+        margin-bottom: 10px;
     }
 
     .next{
@@ -1272,7 +1277,7 @@
     }
 
     .input input{
-        width: 300px;
+        width: 305px;
         height: 35px;
         margin: 0;
     }
@@ -1283,7 +1288,7 @@
     }
 
     .usd{
-        padding: 7px;
+        padding: 7px 0 7px 16px;
     }
 
     .heading{
@@ -1350,7 +1355,7 @@
     }
 
     .image img {
-        height: 180px;
+        height: 130px;
     }
     .section{
         flex-wrap: wrap;
@@ -1366,8 +1371,7 @@
     }
 
     .lower-footer h4{
-        margin-left: 20px;
-        font-size: 14px;
+        margin-left: 98px;
     }
 
     .lower-footer img {
@@ -1379,14 +1383,9 @@
         display: none;
     }
 
-    .lower-footer-link{
-        position: relative;
-        left: 15%;
-    }
-
     .lower-footer h4{
         width: 410px;
-        margin-left: 135px;
+        margin-left: 123px;
     }
     
     .lower-footer{
@@ -1395,7 +1394,554 @@
 
     .lower-footer-link{
         position: relative;
-        left: 20%;
+        left: 30%;
     }
+
+}
+
+@media screen and (max-device-width: 400px){
+    
+    .header img{
+        height: 40px;
+        width: 160px;
+        margin: 15px 0 0 27px;
+    }
+
+    #menu-bar{
+        position: absolute;
+        left: 82%;
+     }
+
+    .info{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info h4{
+        margin: 0%;
+        padding: 24px;
+    }
+/* 
+     .info h4{
+         font-size: 12px;
+         margin: 0 50px;
+     } */
+
+    .section{
+        margin: 14px 0 10px 18px;
+    }
+
+    .section h3{
+      width: 250px;
+    }
+
+    .section a{
+     width: 52px;
+    }
+
+    .container-1{
+        margin: 20px 0 0 20px;
+    }
+
+    .box{
+        height: 85px;
+        width: 165px;
+        border-radius: 10px;
+        margin-bottom: 26px;
+    }
+
+    .next{
+        display: none;
+    }
+
+    .input{
+        position: relative;
+        left: 0;
+    }
+
+    .input input{
+        width: 270px;
+        height: 32px;
+        margin: 0;
+    }
+
+    .usd{
+        position: relative;
+        left: 0;
+    }
+
+    .usd{
+        padding: 5px 0 5px 15px;
+    }
+
+    .heading{
+        margin: 25px 0;
+        justify-content: stretch;
+    }
+
+    .heading h6{
+        margin: 0 22px 0 22px;
+    }
+
+    .details {
+        margin: 10px 5px 10px 19px;
+    }
+
+    .details h4 {
+        font-size: 14px;
+        padding: 0 0 10px 2px;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+
+    .coin, .cap{
+        display: none;
+    }
+
+    
+   .page-link a{
+      height: 26px;
+      width: 17px;
+      margin: 3px;
+      padding: 5px 0 0 10px;
+   }
+
+    .post{
+        width: 280px;
+        height: 300px;
+    }
+
+    .post-1{
+        display: none;
+    }
+
+    .post img{
+        height: 192px;
+        width: 279px;
+    }
+
+    .post h4{
+        margin: 10px 0 0 7px;
+        font-size: 16px;
+    }
+
+    .post p{
+        margin: 10px 0 0 7px;
+        font-size: 14px;
+    }
+
+    .post-2{
+        display: none;
+    }
+
+    .image img {
+        height: 125px;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+
+    .upper-footer{
+        height: 420px;
+        padding: 10px;
+    } 
+
+    .download-app{
+        margin-top: 25px;
+    }
+
+
+    .lower-footer img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .graph, .graph-text, .charge{
+        display: none;
+    }
+
+   
+    .lower-footer h4{
+        margin-left: 114px;
+    }
+
+    .lower-footer-link{
+        position: relative;
+        left: 29%;
+    }
+
+
+}
+
+@media screen and (max-device-width: 365px){
+    
+    .header img{
+        height: 40px;
+        width: 160px;
+        margin: 15px 0 0 27px;
+    }
+
+    #menu-bar{
+        position: absolute;
+        left: 82%;
+     }
+
+    .info{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info h4{
+        margin: 0%;
+        padding: 24px;
+    }
+/* 
+     .info h4{
+         font-size: 12px;
+         margin: 0 50px;
+     } */
+
+    .section{
+        margin: 15px 0 15px 25px;
+    }
+
+    .section h3{
+      width: 250px;
+    }
+
+    .section a{
+     width: 52px;
+    }
+
+    .container-1{
+        margin: 10px 0 0 10px;
+    }
+
+    .box{
+        height: 85px;
+        width: 155px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .next{
+        display: none;
+    }
+
+    .input{
+        position: relative;
+        left: 0;
+    }
+
+    .input input{
+        width: 234px;
+        height: 32px;
+    }
+
+    .usd{
+        position: relative;
+        left: 0;
+    }
+
+    .usd{
+        padding: 5px 0 5px 15px;
+    }
+
+    .heading{
+        margin: 20px 0;
+        justify-content: stretch;
+    }
+
+    .heading h6{
+        margin: 0 0 0 36px;
+    }
+
+    .details {
+        margin: 30px 5px 30px 28px;
+    }
+
+    .details h4 {
+        font-size: 14px;
+        padding: 0 0 10px 2px;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+
+    .coin, .cap{
+        display: none;
+    }
+
+    
+   .page-link a{
+      height: 26px;
+      width: 17px;
+      margin: 3px;
+      padding: 5px 0 0 10px;
+   }
+
+    .post{
+        width: 280px;
+        height: 300px;
+    }
+
+    .post-1{
+        display: none;
+    }
+
+    .post img{
+        height: 192px;
+        width: 279px;
+    }
+
+    .post h4{
+        margin: 10px 0 0 7px;
+        font-size: 16px;
+    }
+
+    .post p{
+        margin: 10px 0 0 7px;
+        font-size: 14px;
+    }
+
+    .post-2{
+        display: none;
+    }
+
+    .image img {
+        height: 115px;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+
+    .upper-footer{
+        margin: 0;
+    }
+
+    .upper-footer{
+        height: auto;
+        padding: 10px;
+    } 
+
+    .uf-one img{
+        width: 150px;
+        height: 35px;
+    }
+
+    .download-app{
+        margin-top: 25px;
+    }
+
+
+    .lower-footer img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .graph, .graph-text, .charge{
+        display: none;
+    }
+
+   
+    .lower-footer h4{
+        margin-left: 102px;
+    }
+
+    .lower-footer-link{
+        position: relative;
+        left: 29%;
+    }
+
+
+}
+
+@media screen and (max-device-width: 350px){
+    
+    .header img{
+        height: 40px;
+        width: 160px;
+        margin: 15px 0 0 27px;
+    }
+
+    #menu-bar{
+        position: absolute;
+        left: 82%;
+     }
+
+    .info{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info h4{
+        margin: 0%;
+        padding: 24px;
+    }
+/* 
+     .info h4{
+         font-size: 12px;
+         margin: 0 50px;
+     } */
+
+    .section{
+        margin: 5px 0 5px 10px;
+    }
+
+    .section h3{
+      width: 250px;
+    }
+
+    .section a{
+     width: 42px;
+    }
+
+    .container-1{
+        margin: 10px 0 0 10px;
+    }
+
+    .box{
+        height: 90px;
+        width: 140px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .next{
+        display: none;
+    }
+
+    .input{
+        position: relative;
+        left: 0;
+    }
+
+    .input input{
+        width: 200px;
+        height: 32px;
+    }
+
+    .usd{
+        position: relative;
+        left: 0;
+    }
+
+    .usd{
+        padding: 5px 0 5px 15px;
+    }
+
+    .heading{
+        margin: 20px 0;
+        justify-content: stretch;
+    }
+
+    .heading h6{
+        margin: 0 0 0 28px;
+    }
+
+    .details {
+        margin: 30px 5px 30px 20px;
+    }
+
+    .details h4 {
+        font-size: 12px;
+        padding: 0 0 10px 2px;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+
+    .coin, .cap{
+        display: none;
+    }
+
+    
+   .page-link a{
+      height: 26px;
+      width: 17px;
+      margin: 3px;
+      padding: 5px 0 0 10px;
+   }
+
+    .post{
+        width: 280px;
+        height: 300px;
+    }
+
+    .post-1{
+        display: none;
+    }
+
+    .post img{
+        height: 192px;
+        width: 279px;
+    }
+
+    .post h4{
+        margin: 10px 0 0 7px;
+        font-size: 16px;
+    }
+
+    .post p{
+        margin: 10px 0 0 7px;
+        font-size: 14px;
+    }
+
+    .post-2{
+        display: none;
+    }
+
+    .image img {
+        height: 115px;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+
+    .upper-footer{
+        margin: 0;
+    }
+
+    .upper-footer{
+        height: auto;
+        padding: 10px;
+    } 
+
+    .uf-one img{
+        width: 150px;
+        height: 35px;
+    }
+
+    .download-app{
+        margin-top: 25px;
+    }
+
+
+    .lower-footer img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .graph, .graph-text, .charge{
+        display: none;
+    }
+
+   
+    .lower-footer h4{
+        margin-left: 99px;
+    }
+
+    .lower-footer-link{
+        position: relative;
+        left: 29%;
+    }
+
 
 }
