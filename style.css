@@ -83,8 +83,8 @@
 
 button {
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
     padding: 0;
     border: none;
     border-radius: 100%;
@@ -95,7 +95,7 @@ button {
 
 li.slick-active button {
     background-color: #505050;
-    opacity: .7;
+    opacity: .8;
 }
 
 .box{
