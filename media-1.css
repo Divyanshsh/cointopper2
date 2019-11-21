@@ -16,14 +16,18 @@
     }
 
     .container-1{
-        margin: 20px 0 0 15px;
+        margin: 20px 85px 0 85px;
     }
     
     .box{
-        height: 95px;
-        width: 200px;
+        height: 77px;
+        width: 152px;
         border-radius: 10px;
         margin-bottom: 26px;
+    }
+
+    .post img{
+        width: 100%;
     }
 } 
 
@@ -54,24 +58,24 @@
 
    
     .container-1{
-        margin: 20px 0 0 10px;
+        margin: 20px 85px 0 85px;
     }
     
     .box{
-        height: 90px;
-        width: 186px;
+        height: 75px;
+        width: 138px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
 
     .post{
         width: 250px;
-        height: 310px;
+        height: 325px;
     }
 
     .post img{
-        height: 160px;
-        width: 250px;
+        height: 184px;
+        width: 100%;
     }
 } 
 
@@ -82,13 +86,13 @@
         width: 103px;
         border-radius: 10px; */
         position: relative;
-        left: 40%;
+        left: 38%;
     }
     
     
     .input{
        position: relative;
-       left: 40%;
+       left: 38%;
     }
 
     .usd{
@@ -97,18 +101,27 @@
         padding: 7px;
         margin-left: 5px; */
         position: relative;
-        left: 40%;
+        left: 38%;
     }
 
     .container-1{
-        margin: 20px 0 0 10px;
+        margin: 20px 85px 0 85px;
     }
     
     .box{
-        height: 90px;
-        width: 167px;
+        height: 75px;
+        width: 123px;
         border-radius: 10px;
         margin-bottom: 26px;
+    }
+
+    .post{
+        height: 342px;
+        margin: 0 45px 15px 45px;
+    }
+
+    .post img{
+        height: 184px;
     }
 
     
@@ -124,7 +137,7 @@
 
 @media screen and (min-device-width: 950px) and (max-device-width: 1050px){
     .section{
-        margin: 20px 0 20px 50px;
+        margin: 20px 0 20px 90px;
     }
     
     .next{
@@ -134,7 +147,7 @@
         border-radius: 10px; 
         position: relative;
         padding: 5px;
-        left: 35%;
+        left: 28%;
     }
 
     .next a{
@@ -150,7 +163,7 @@
     
     .input{
        position: relative;
-       left: 35%;
+       left: 28%;
     }
 
     .usd{
@@ -159,16 +172,16 @@
         padding: 7px;
         margin-left: 5px;
         position: relative;
-        left: 35%;
+        left: 28%;
     }
 
     .container-1{
-        margin: 20px 0 0 10px;
+        margin: 20px 85px 0 85px;
     }
     
     .box{
-        height: 90px;
-        width: 155px;
+        height: 70px;
+        width: 195px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -181,11 +194,12 @@
     .post{
         width: 240px;
         height: 300px;
+        margin: 0 40px 15px 40px;
     }
 
     .post img{
         height: 150px;
-        width: 240px;
+        width: 100%;
     }
 
     .post h4{
@@ -196,7 +210,7 @@
 
 @media screen and (min-device-width: 850px) and (max-device-width: 950px){ 
     .section{
-        margin: 20px 0 20px 50px;
+        margin: 20px 0 20px 90px;
     }
     
     .next{
@@ -206,7 +220,7 @@
         border-radius: 10px; 
         position: relative;
         padding: 4px;
-        left: 28%;
+        left: 25%;
     }
 
     .next a{
@@ -221,7 +235,7 @@
     
     .input{
        position: relative;
-       left: 28%;
+       left: 25%;
     }
 
     .input input{
@@ -235,16 +249,16 @@
         padding: 5px;
         margin-left: 5px;
         position: relative;
-        left: 28%;
+        left: 25%;
     }
 
     .container-1{
-        margin: 10px 0 0 3px;
+        margin: 20px 85px 0 85px;
     }
     
     .box{
-        height: 85px;
-        width: 130px;
+        height: 70px;
+        width: 168px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -252,11 +266,12 @@
     .post{
         width: 240px;
         height: 300px;
+        margin: 0 30px 15px 30px;
     }
 
     .post img{
         height: 150px;
-        width: 240px;
+        width: 100%;
     }
 
     .post h4{
@@ -289,7 +304,7 @@
     
     
     .section{
-        margin: 20px 0 20px 50px;
+        margin: 20px 0 20px 80px;
     }
 
     .section h3{
@@ -297,29 +312,29 @@
     }
     
     .container-1{
-        margin: 10px 0 0 12px;
+        margin: 20px 75px 0 75px;
     }
     
     .box{
-        height: 90px;
-        width: 125px;
+        height: 70px;
+        width: 153px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
 
     .next{
         position: relative;
-        left: 23%;
+        left: 15%;
     }
 
     .input{
         position: relative;
-        left: 23%;
+        left: 15%;
      }
 
      .usd{
         position: relative;
-        left: 23%;
+        left: 15%;
     }
 
     .heading{
@@ -333,11 +348,12 @@
     .post{
         width: 240px;
         height: 300px;
+        margin: 0 20px 15px 20px;
     }
 
     .post img{
         height: 150px;
-        width: 240px;
+        width: 100%;
     }
 
     .post h4{
@@ -457,8 +473,8 @@
     }
     
     .box{
-        height: 90px;
-        width: 142px;
+        height: 70px;
+        width: 245px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -493,7 +509,7 @@
 
     .post img{
         height: 140px;
-        width: 220px;
+        width: 100%;
     }
 
     .post h4{
@@ -531,8 +547,8 @@
     }
 
     .box{
-        height: 90px;
-        width: 130px;
+        height: 70px;
+        width: 222px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -571,7 +587,7 @@
 
     .post img{
         height: 140px;
-        width: 220px;
+        width: 100%;
     }
 
     .post h4{
@@ -623,8 +639,8 @@
     }
 
     .box{
-        height: 90px;
-        width: 190px;
+        height:77px;
+        width: 193px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -688,7 +704,7 @@
 
     .post img{
         height: 140px;
-        width: 220px;
+        width: 100%;
     }
 
     .post h4{
@@ -767,8 +783,8 @@
     }
 
     .box{
-        height: 90px;
-        width: 175px;
+        height: 70px;
+        width: 178px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -828,11 +844,12 @@
     .post{
         width: 220px;
         height: 255px;
+        margin: 0 10px 15px 10px;
     }
 
     .post img{
         height: 140px;
-        width: 220px;
+        width: 100%;
     }
 
     .post h4{
@@ -909,8 +926,8 @@
     }
 
     .box{
-        height: 90px;
-        width: 235px;
+        height: 70px;
+        width: 240px;
         border-radius: 10px;
         margin-bottom: 10px;
     }
@@ -980,7 +997,7 @@
 
     .post img{
         height: 140px;
-        width: 220px;
+        width: 100%;
     }
 
     .post h4{
@@ -1080,8 +1097,8 @@
     }
 
     .box{
-        height: 90px;
-        width: 210px;
+        height: 70px;
+        width: 218px;
         border-radius: 10px;
         margin-bottom: 10px;
     }
@@ -1146,7 +1163,8 @@
 
     .post{
        width: 275px;
-       height: 265px;
+       height: 290px;
+       margin: 0 15px 15px 15px;
     }
 
     .post-1{
@@ -1155,7 +1173,7 @@
 
     .post img{
         height: 166px;
-        width: 275px;
+        width: 100%;
     }
 
     .post h4{
@@ -1261,8 +1279,8 @@
     }
 
     .box{
-        height: 90px;
-        width: 190px;
+        height: 70px;
+        width: 189px;
         border-radius: 10px;
         margin-bottom: 10px;
     }
@@ -1329,6 +1347,7 @@
     .post{
         width: 280px;
         height: 300px;
+        margin: 0 75px 15px 75px;
     }
 
     .post-1{
@@ -1337,7 +1356,7 @@
 
     .post img{
         height: 192px;
-        width: 279px;
+        width: 100%;
     }
 
     .post h4{
@@ -1444,8 +1463,8 @@
     }
 
     .box{
-        height: 85px;
-        width: 165px;
+        height: 70px;
+        width: 169px;
         border-radius: 10px;
         margin-bottom: 26px;
     }
@@ -1520,7 +1539,7 @@
 
     .post img{
         height: 192px;
-        width: 279px;
+        width: 100%;
     }
 
     .post h4{
@@ -1621,8 +1640,8 @@
     }
 
     .box{
-        height: 85px;
-        width: 155px;
+        height: 70px;
+        width: 166px;
         border-radius: 10px;
         margin-bottom: 10px;
     }
@@ -1688,6 +1707,7 @@
     .post{
         width: 280px;
         height: 300px;
+        
     }
 
     .post-1{
@@ -1696,7 +1716,7 @@
 
     .post img{
         height: 192px;
-        width: 279px;
+        width: 100%;
     }
 
     .post h4{
@@ -1806,8 +1826,8 @@
     }
 
     .box{
-        height: 90px;
-        width: 140px;
+        height: 70px;
+        width: 149px;
         border-radius: 10px;
         margin-bottom: 10px;
     }
@@ -1873,6 +1893,7 @@
     .post{
         width: 280px;
         height: 300px;
+        margin: 0 40px 15px 40px;
     }
 
     .post-1{
@@ -1881,7 +1902,7 @@
 
     .post img{
         height: 192px;
-        width: 279px;
+        width: 100%;
     }
 
     .post h4{

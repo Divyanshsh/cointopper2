@@ -65,12 +65,42 @@
 
 .container-1{
     display: flex;
-    margin: 20px 0 0 20px;
+    margin: 20px 85px 0 95px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.slick-dots li{
+    margin: 4px;
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    list-style-type: none;
+}
+
+button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: #CDCED5 ;
+    text-indent: -9999px;
+    outline: none;
+}
+
+li.slick-active button {
+    background-color: #505050;
+    opacity: .7;
 }
 
 .box{
-    height: 100px;
-    width: 200px;
+    height: 77px;
+    width: 162px;
     border-radius: 10px;
     margin-bottom: 26px;
 }
@@ -81,27 +111,31 @@
 }
 
 .box1{
-    background-image:linear-gradient(to top left,#FAD961, #F76B1C);;
+    background-image:linear-gradient(to top left,#FAD961, #F76B1C);
 }
 
 .box2{
-    background-image:linear-gradient(to top left,#B4EC51, #429321);;
+    background-image:linear-gradient(to top left,#B4EC51, #429321);
 }
 
 .box3{
-    background-image:linear-gradient(to top left,#FAD961,#F76B1C);;
+    background-image:linear-gradient(to top left,#FAD961,#F76B1C);
 }
 
 .box4{
-    background-image:linear-gradient(to top left,#B4EC51 ,#429321);;
+    background-image:linear-gradient(to top left,#B4EC51 ,#429321);
 }
 
 .box5{
-    background-image:linear-gradient(to top left,#FAD961,#F76B1C);;
+    background-image:linear-gradient(to top left,#FAD961,#F76B1C);
 }
 
 .box6{
-    background-image:linear-gradient(to top left,#3FCDDF,#2B85AB);;
+    background-image:linear-gradient(to top left,#3FCDDF,#2B85AB);
+}
+
+.box7{
+    background-image:linear-gradient(to top left,#B4EC51, #429321);
 }
 
 .container-1 h6{
@@ -307,13 +341,15 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 87px;
+    flex-wrap: wrap;
 }
 
 .post{
-    width: 300px;
-    height: 354px;
+    width: auto;
+    height: 340px;
     border: 2px solid #CDCED5;
     border-radius: 15px;
+    margin: 0 73px 15px 73px;
 }
 
 .post h4{
@@ -324,7 +360,7 @@
 
 .post img{
     height: 215px;
-    width: 300px;
+    width: 100%;
 }
 
 .post p{
