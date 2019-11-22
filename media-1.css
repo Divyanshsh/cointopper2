@@ -33,10 +33,6 @@
 
 @media screen and (min-device-width: 1150px) and (max-device-width: 1250px){
     .next{
-        /* background-color: #CDCED5;
-        height: 36px;
-        width: 103px;
-        border-radius: 10px; */
         position: relative;
         left: 42%;
     }
@@ -48,10 +44,6 @@
     }
 
     .usd{
-        /* background-color: #CDCED5;
-        border-radius: 10px;
-        padding: 7px;
-        margin-left: 5px; */
         position: relative;
         left: 42%;
     }
@@ -142,8 +134,6 @@
     
     .next{
         background-color: #CDCED5;
-        /* height: 36px;
-        width: 103px; */
         border-radius: 10px; 
         position: relative;
         padding: 5px;
@@ -215,8 +205,6 @@
     
     .next{
         background-color: #CDCED5;
-        /* height: 36px;
-        width: 103px; */
         border-radius: 10px; 
         position: relative;
         padding: 4px;
@@ -383,9 +371,11 @@
         border-radius: 5px;
         transition: 0.3s ease;
      }
+
      #bar1{
         transform: translateY(-4px);
      }
+
      #bar3{
         transform: translateY(4px);
      }
@@ -681,21 +671,9 @@
        padding: 0 0 0 15px;
     }
 
-    /* .detail-4, .detail-5{
-        display: none;
-    } */
-
-    /* .heading h6{
-        padding: 0 105px 0 0;
-    } */
-
     .coin, .cap{
         display: none;
     }
-
-    /* .other-h6{
-        display: none;
-    } */
 
     .post{
         width: 220px;
@@ -730,9 +708,13 @@
     }
 
     .upper-footer{
-        height: 420px;
+        height: auto;
         padding: 10px;
     } 
+
+    .uf{
+        margin: 20px 40px 0 40px;
+    }
 
     .download-app{
         margin-top: 25px;
@@ -875,9 +857,13 @@
     }
 
     .upper-footer{
-        height: 420px;
+        height: auto;
         padding: 10px;
     } 
+
+    .uf{
+        margin: 20px 30px 0 30px;
+    }
 
     .download-app{
         margin-top: 25px;
@@ -1022,9 +1008,13 @@
     }
 
     .upper-footer{
-        height: 420px;
+        height: auto;
         padding: 10px;
     } 
+
+    .uf{
+        margin: 20px 20px 0 20px;
+    }
 
     .download-app{
         margin-top: 25px;
@@ -1057,10 +1047,6 @@
      #menu{
          width: 27px;
      }
-
-    /* .other-h6{
-        display: none;
-    } */
 
 }
 
@@ -1198,9 +1184,13 @@
     }
 
     .upper-footer{
-        height: 420px;
+        height: auto;
         padding: 10px;
     } 
+
+    .uf{
+        margin: 20px 10px 0 10px;
+    }
 
     .download-app{
         margin-top: 25px;
@@ -1233,11 +1223,6 @@
      #menu{
          width: 27px;
      }
-
-    /* .other-h6{
-        display: none;
-    } */
-
 }
 
 @media screen and (max-device-width: 450px){
@@ -1260,11 +1245,6 @@
         margin: 0%;
         padding: 24px;
     }
-/* 
-     .info h4{
-         font-size: 12px;
-         margin: 0 50px;
-     } */
 
     .section{
         margin: 15px 0 15px 25px;
@@ -1381,9 +1361,13 @@
     }
 
     .upper-footer{
-        height: 420px;
+        height: auto;
         padding: 10px;
     } 
+
+    .uf{
+        margin: 20px 8px 0 8px;
+    }
 
     .download-app{
         margin-top: 25px;
@@ -1440,11 +1424,6 @@
         margin: 0%;
         padding: 24px;
     }
-/* 
-     .info h4{
-         font-size: 12px;
-         margin: 0 50px;
-     } */
 
     .section{
         margin: 14px 0 10px 18px;
@@ -1564,9 +1543,18 @@
     }
 
     .upper-footer{
-        height: 420px;
+        height: auto;
         padding: 10px;
     } 
+
+    .uf{
+        margin: 15px 2px 0 2px;
+    }
+
+    .uf-one img{
+        height: 33px;
+        width: 140px;
+    }
 
     .download-app{
         margin-top: 25px;
@@ -1617,11 +1605,6 @@
         margin: 0%;
         padding: 24px;
     }
-/* 
-     .info h4{
-         font-size: 12px;
-         margin: 0 50px;
-     } */
 
     .section{
         margin: 15px 0 15px 25px;
@@ -1749,9 +1732,13 @@
         padding: 10px;
     } 
 
+    .uf{
+       margin: 15px 0 0 0; 
+    }
+
     .uf-one img{
-        width: 150px;
-        height: 35px;
+        width: 130px;
+        height: 30px;
     }
 
     .download-app{
@@ -1803,11 +1790,6 @@
         margin: 0%;
         padding: 24px;
     }
-/* 
-     .info h4{
-         font-size: 12px;
-         margin: 0 50px;
-     } */
 
     .section{
         margin: 5px 0 5px 10px;
@@ -1935,6 +1917,10 @@
         padding: 10px;
     } 
 
+    .uf{
+        margin: 15px -3px 0 -3px;
+    }
+
     .uf-one img{
         width: 150px;
         height: 35px;
@@ -1963,6 +1949,4 @@
         position: relative;
         left: 29%;
     }
-
-
 }
