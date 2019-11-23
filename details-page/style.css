@@ -186,7 +186,7 @@ header h4{
 .currency{
     display: flex;
     align-items: center;
-    margin: 35px 0 0 245px;
+    margin: 35px 0 0 207px;
 }
 
 .currency h4{
@@ -226,4 +226,118 @@ header h4{
 
 .currency-img{
     margin: 0 20px;
+}
+
+.outer-link{
+    display: flex;
+    background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+    margin: 30px 0 0 0;
+    padding: 60px 0 0 795px;
+}
+
+.graph-container{
+    height: 340px;
+    display: flex;
+    background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+}
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    width: 70px;
+    height: 15px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 2px 0px 6px 0;
+    margin: 4px 2px;
+}
+
+.basic {
+    background-color: #1c60b8;
+    color: black;
+    height: 15px;
+}
+
+.advance{
+    background-color: #fff;
+    color: #1c60b8;
+}
+
+.graph{
+    display: flex;
+}
+
+.graph-pic img{
+    height: 235px;
+    width: 795px;
+    margin: 30px 30px 0 155px;
+}
+
+.text-link{
+    margin: 30px 0 -25px 240px;
+}
+
+.graph-detail a{
+   text-decoration: none;
+   color: #039;
+   font-size: 12px;
+   font-weight: bold;
+   background: #fff;
+   height: 32px;
+   width: 32px;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+.graph-detail h5, h3{
+    color: #fff;
+}
+
+.price-details{
+    display: flex;
+}
+
+.price-details h5{
+   font-size: 14px;
+}
+
+.price-details h3{
+    font-size: 32px;
+ }
+
+.btc-icon{
+    height: 15px;
+    width: 15px;
+}
+
+.white-down-arrow{
+    height: 10px;
+    width: 10px;
+    margin: 0 2px 0 5px;
+}
+
+.price-details-one{
+    margin: 14px 0 60px 70px;
+}
+
+.price-details-two{
+    margin: 18px 0 0 70px;
+}
+
+.lower-container{
+    background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 35px 0;
+}
+
+.low-con h5{
+    font-size: 17px;
+    color: #fff;
+}
+
+.low-con h3{
+    font-size: 32px;
+    color: #fff;
 }
