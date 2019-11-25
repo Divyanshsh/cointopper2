@@ -341,3 +341,147 @@ header h4{
     font-size: 32px;
     color: #fff;
 }
+
+.drop-down-menu{
+    background: #f2f2f2;
+    height: 900px;
+    width: 100%;
+    display: flex;
+}
+
+.drop-down-para{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.drop-down{
+    height: 135px;
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    left: 13%;
+    top: 12%;
+    margin: 0 4px;
+}
+
+.drop-down p{
+    display: none;
+    margin: 30px;
+    line-height: 19px;
+}
+
+.drop-down h3{
+    font-size: 32px;
+    color: #505050;
+    display: inline-block;
+    margin: 24px 0 0 30px;
+}
+
+.drop-down img{
+   height: 15px;
+   width: 15px;
+   cursor: pointer;
+}
+
+.drop-down-img-one{
+    margin: 0 0 0 310px;
+}
+
+.drop-down-img-two{
+    margin: -23px 0 18px 440px;
+}
+
+.drop-down h6{
+    color: #3d3d3d;
+    font-size: 16px;
+    letter-spacing: -0.39px;
+    line-height: 19px;
+    margin: 30px;
+    display: none;
+}
+
+.icon-link{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.icon-link a{
+    text-decoration: none;
+    color: #838383;
+    margin: 0 25px;
+    font-size: 14px;
+}
+
+.icon-link img{
+   height: 30px;
+   width: 30px;
+   margin: 0 0 10px 0;
+}
+
+.icon-link-one{
+    background: #3489ff;
+    border-radius: 100%;
+    padding: 17px;
+}
+
+.icon-link-two{
+    background: #c03a2c;
+    border-radius: 100%;
+    padding: 17px;
+}
+
+.icon-link-three{
+    background: #12a660;
+    border-radius: 100%;
+    padding: 17px;
+}
+
+.icon-link-four{
+    background: #333433;
+    border-radius: 100%;
+    padding: 17px;
+}
+
+.drop-down-two h6{
+    color: #3d3d3d;
+    font-size: 16px;
+    display: none;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 87px;
+    flex-wrap: wrap;
+}
+
+.post{
+    width: auto;
+    height: 340px;
+    border: 2px solid #CDCED5;
+    border-radius: 15px;
+    margin: 0 73px 15px 73px;
+}
+
+.post h4{
+   font-size: 22px;
+   color: #003BB2;
+   margin: 10px 0 0 7px;
+}
+
+.post img{
+    height: 215px;
+    width: 100%;
+}
+
+.post p{
+    font-size: 16px;
+    color: #3D3D3D;
+    margin: 20px 0 0 7px;
+}
