@@ -13,12 +13,19 @@
 
 $(document).ready(function () {
     $(".drop-down-img-one").click(function () {
-        $(".drop-down-para p").toggle(500);
-        $(".icon-link").toggle(500);  
+        $(".drop-down-para p").toggle();
+        $(".drop-down-para").toggle(); 
+        $(".icon-link").toggle();  
     });
 
     $(".drop-down-img-two").click(function () {
-        $(".drop-down-two h6").toggle(500);  
+        // $(".drop-down-two h6").toggle(500);  
+        $(".drop-down-two iframe").toggle(); 
+        // $(".iframe-container").toggle(500);   
+    });
+
+    $(".drop-down-img-three").click(function () { 
+        $(".drop-down-content").toggle();    
     });
 });
 
@@ -29,6 +36,33 @@ $(document).ready(function(){
       autoplay:  true,
       autoplaySpeed: 2000,
       arrows: false,
+      dots: true
+    }); 
+  });
+
+  $(document).ready(function(){
+    $('.blog-posts').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay:  true,
+      autoplaySpeed: 2000,
+      arrows: false,
       dots: true,
+      responsive: [
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 450,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        }
+      ]
     }); 
   });

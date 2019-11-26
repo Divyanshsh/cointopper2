@@ -344,30 +344,55 @@ header h4{
 
 .drop-down-menu{
     background: #f2f2f2;
-    height: 900px;
+    height: auto;
     width: 100%;
     display: flex;
+}
+
+.drop-container{
+    margin: 50px 0 50px 170px;
+    padding: 0 10px 0 0;
+}
+
+.drop-down{
+    padding: 45px 0;
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
 }
 
 .drop-down-para{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    /* border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2; */
+    display: none;
 }
 
-.drop-down{
+.drop-down-one{
+    margin: 0 0 6px 0;
+}
+
+.drop-down-two{
+    margin: 50px 0 50px 0;
+}
+
+/* .drop-down-three{
     height: 135px;
     width: 500px;
     background: #fff;
     border-radius: 10px;
     border: 1px solid #e2e2e2;
     position: relative;
-    left: 13%;
-    top: 12%;
+    left: -18%;
+    top: 25%;
     margin: 0 4px;
-}
+} */
 
-.drop-down p{
+.drop-down-one p{
     display: none;
     margin: 30px;
     line-height: 19px;
@@ -377,13 +402,17 @@ header h4{
     font-size: 32px;
     color: #505050;
     display: inline-block;
-    margin: 24px 0 0 30px;
+    margin: 0 0 0 30px;
 }
 
-.drop-down img{
+.drop-down > img{
    height: 15px;
    width: 15px;
    cursor: pointer;
+}
+
+.drop-down-img-three{
+    margin: -28px 0 28px 430px;
 }
 
 .drop-down-img-one{
@@ -399,8 +428,11 @@ header h4{
     font-size: 16px;
     letter-spacing: -0.39px;
     line-height: 19px;
-    margin: 30px;
     display: none;
+}
+
+.drop-down-one h6{
+    margin: 30px;
 }
 
 .icon-link{
@@ -451,36 +483,151 @@ header h4{
 .drop-down-two h6{
     color: #3d3d3d;
     font-size: 16px;
+    display: block;
+    background: white;
+    padding: 15px 0 30px 30px;
+    /* border-radius: 10px; */
+}
+
+.drop-down iframe{
     display: none;
 }
 
-.posts{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 87px;
-    flex-wrap: wrap;
+.drop-down iframe{
+    height: 210px;
+    width: 400px;
+    margin: 50px 0 0 50px;
 }
+ 
+ .iframe-container{
+     /* padding: 20px; */
+     background-color: white;
+     border-radius: 10px;
+     height: auto;
+     width: auto;
+     /* border-left: 1px solid #e2e2e2;
+     border-right: 1px solid #e2e2e2;
+     border-bottom: 1px solid #e2e2e2; */
+ }
 
 .post{
     width: auto;
     height: 340px;
     border: 2px solid #CDCED5;
     border-radius: 15px;
-    margin: 0 73px 15px 73px;
+    margin: 0 55px 40px 55px;
 }
 
 .post h4{
    font-size: 22px;
-   color: #003BB2;
+   color: #337AB7;
    margin: 10px 0 0 7px;
 }
 
 .post img{
     height: 215px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .post p{
+    color: #3d3d3d;
+    font-size: 15px;
+    line-height: 19px;
+    margin: 8px;
+}
+
+.drop-down-content{
+    width: 500px;
+    height: 336px;
+    background-color: #fff;
+    /* border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2; */
+    border-radius: 10px;
+    display: none;
+
+}
+
+.reddit-info{
+    display: flex;
+    background-color: #CEE3F8;
+    padding: 2px;
+    height: 30px;
+}
+
+.reddit-info-img{
+    width: 19px;
+    height: 18px;
+    /* padding: 5px 3px 3px 3px; */
+}
+
+.reddit-info h4{
+    font-size: 18px;
+    color: #838383;
+    padding: 3px;
+}
+
+.reddit-info a{
+    text-decoration: none;
+}
+
+.reddit-info a h4{
+    font-size: 18px;
+    color: #336699;
+    padding: 0;
+}
+
+.reddit-post{
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    overflow-y: scroll;
+    margin: 0 45px;
+}
+
+.reddit-post a{
+    color: #336699;
+    font-size: 13px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.up-down-img{
+    height: 32px;
+    width: 17px;
+    padding: 5px;
+}
+
+.blog-posts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 87px;
+    flex-wrap: wrap;
+}
+
+.blog-post{
+    width: auto;
+    height: 372px;
+    border: 2px solid #CDCED5;
+    border-radius: 15px;
+    margin: 35px 30px 40px 30px;
+}
+
+.blog-post h4{
+   font-size: 22px;
+   color: #003BB2;
+   margin: 10px 0 0 7px;
+}
+
+.blog-post img{
+    height: 248px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-post p{
     font-size: 16px;
     color: #3D3D3D;
     margin: 20px 0 0 7px;
