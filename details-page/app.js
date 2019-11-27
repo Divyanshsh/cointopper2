@@ -13,19 +13,19 @@
 
 $(document).ready(function () {
     $(".drop-down-img-one").click(function () {
-        $(".drop-down-para p").toggle();
-        $(".drop-down-para").toggle(); 
-        $(".icon-link").toggle();  
+        $(".drop-down-para p").toggle(400);
+        $(".drop-down-para").toggle(400); 
+        $(".icon-link").toggle(400);  
     });
 
     $(".drop-down-img-two").click(function () {
         // $(".drop-down-two h6").toggle(500);  
-        $(".drop-down-two iframe").toggle(); 
+        $(".drop-down-two iframe").toggle(400); 
         // $(".iframe-container").toggle(500);   
     });
 
     $(".drop-down-img-three").click(function () { 
-        $(".drop-down-content").toggle();    
+        $(".drop-down-content").toggle(400);    
     });
 });
 

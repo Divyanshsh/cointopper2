@@ -607,6 +607,29 @@ header h4{
     flex-wrap: wrap;
 }
 
+.blog-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-info h2{
+    color: #505050;
+    font-size: 32px;
+    margin: 25px 0 0 60px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.blog-info a{
+    text-decoration: none;
+    background-color: #cdced5;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin: 20px 60px 0 0;
+}
+
 .blog-post{
     width: auto;
     height: 372px;
@@ -631,4 +654,192 @@ header h4{
     font-size: 16px;
     color: #3D3D3D;
     margin: 20px 0 0 7px;
+}
+
+.upper-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background: #e7ebed;
+}
+
+.uf{
+    padding: 45px 30px 0 50px;
+    flex-wrap: wrap;
+}
+
+.one, .two, .three, .four{
+    height: 300px;
+}
+
+.one img{
+   height: 37px;
+   width: 180px;
+   margin: -11px 0 10px 0;
+}
+
+.uf a{
+    text-decoration: none;
+}
+
+.uf h4{
+    color: #245da6;
+    font-size: 15px;
+    margin: 0 0 26px 0;
+}    
+
+.uf h5{
+    /* padding: 10px 0; */
+    color: #3d3d3d;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.five{
+    margin: 0 0 35px 0;
+}
+
+.five h5{
+   font-size: 12px;
+   display: inline;
+   line-height: 0;
+}
+
+.five p{
+    font-size: 11px;
+ }
+
+ .five img{
+    width: 60px;
+    height: 40px;
+ }
+
+ .five-link{
+     padding: 3px 0;
+ }
+
+ .mail{
+    margin: -145px 0 0px 48px;
+ }
+
+.mail input{
+    background-color: #bfc6cb;
+    width: 250px;
+    color: #fff;
+    height: 36px;
+    padding: 0 12px;
+    /* margin: 0 0 0 38px; */
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: none;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+.newsletter{
+    color: #245da6;
+    margin-bottom: 26px;
+    text-decoration: none;
+}
+
+.newsletter h5{
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.submit{
+    background: #245DA6;
+    border-radius: 8px;
+    padding: 9px 15px;
+}
+
+.arrow-img{
+    width: 13px;
+    height: 13px;
+}
+
+.download-app{
+    margin: -140px 0 0px 132px;
+}
+
+.download-app h5{
+    color: #245da6;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.download-app img{
+    width: 150px;
+    height: 46px;
+}
+
+.lower-footer{
+    display: flex;
+    background-color: #bfc6cb;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lower-footer p{
+    color: #3d3d3d;
+    font-size: 16px;
+    margin: 0 45px;
+}
+
+.red-heart-img{
+    height: 20px;
+    width: 18px;
+}
+
+.icons{
+    height: 15px;
+    width: 15px;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+.icon-one{
+    background: linear-gradient(to right, #1c60b8 1%,#3c99dd 100%);
+}
+
+.icon-two{
+    background: linear-gradient(to right, #d14639 1%,#c64a3f 100%);
+}
+
+.icon-three{
+    background: linear-gradient(to right, #1da1f2 1%, #1da1f2 100%);
+}
+
+.icon-four{
+    background: linear-gradient(to right, #a739a6 1%,#fca644 100%);
+}
+
+.icon-five{
+    background: linear-gradient(to right, #2aabde 1%,#3db8e5 100%);
+}
+
+.icon-six{
+    background: linear-gradient(to right, #ff0000 1%, #ff0000 100%);
+}
+
+.icon-container{
+    position: fixed;
+    left: 94%;
+    top: 84%;
+    background-color: #1c60b8;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.camera-icon{
+    height: 25px;
+    width: 27px;
+    padding: 14px;
 }
