@@ -70,7 +70,7 @@
     justify-content: space-around;
 }
 
-.slick-dots li{
+/* .slick-dots li{
     margin: 4px;
 }
 
@@ -96,6 +96,10 @@ button {
 li.slick-active button {
     background-color: #505050;
     opacity: .8;
+} */
+
+.bitcoin-cash{
+    text-decoration: none;
 }
 
 .box{
