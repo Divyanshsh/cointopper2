@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.low-container{
+    display: none;
+}
+
 .menu-bg{
     display: none;
 }

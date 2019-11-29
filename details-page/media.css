@@ -351,3 +351,3305 @@
         top: 77%;
     }
 }
+
+@media screen and (max-device-width: 1050px) and (min-device-width: 1000px){
+    
+    .links {
+        margin: 0 2px 0 0;
+    }
+
+    .links a:first-child {
+        padding: 10px 20px;
+    }
+
+    .detail {
+        margin: 35px 0 0 40px;
+    }
+
+    .bch {
+        height: 55px;
+        width: 55px;
+        margin: 0 0 0 5px;
+    }
+
+    .first-h4 {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    .second-h4 {
+        color: darkblue;
+        font-size: 28px;
+    }
+
+    .text-link{
+        margin: 30px 0 -25px 150px;
+    }
+
+    .input input {
+        width: 100px;
+        height: 31px;
+    }
+
+    .search a {
+        font-size: 15px;
+        letter-spacing: -0.18px;
+        line-height: 21px;
+    }
+
+    .usd{
+        padding: 6px 20px 6px 20px;
+        margin-left: 5px;
+    }
+    
+    .graph-pic img {
+        height: 220px;
+        width: 585px;
+        margin: 30px 30px 0 84px;
+    }
+    
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 515px;
+    }
+
+    .price-details h3 {
+        font-size: 28px;
+    }
+
+    .blog-post img {
+        height: 170px;
+        width: 100%;
+    }
+
+    .blog-post {
+        height: 315px;
+        margin: 35px 30px 40px 30px;
+    }
+
+    .low-con h3 {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .drop-down {
+        width: 486px;
+    }
+
+    .drop-container {
+        margin: 50px 0 50px 8px;
+        padding: 0 10px 0 0;
+    }
+
+    .drop-down-img-one {
+        margin: 0px 0 0 263px;
+    }
+
+    .drop-down-img-two {
+        margin: -23px 0 18px 388px;
+    }
+
+    .drop-down-img-three {
+        margin: -28px 0 28px 386px;
+    }
+
+    .reddit-post {
+        margin: 0 20px;
+    }
+
+    .drop-down-content {
+        width: 440px;
+    }
+
+    .uf {
+        padding: 45px 60px 0 65px;
+    }
+
+    .five{
+        margin: -66px 0 35px 0;
+    }
+
+    .mail {
+        margin: -10px 0 0 12px;
+    }
+
+    .download-app img {
+        width: 110px;
+        height: 35px;
+    }
+
+    .download-app{
+        margin: -285px 0 0 570px;
+    }
+
+    .lower-footer p{
+        margin: 0 24px;
+    }
+
+    .icon-container {
+        position: fixed;
+        left: 92%;
+        top: 77%;
+    }
+}
+
+@media screen and (max-device-width: 1000px) and (min-device-width: 950px){
+    
+   .logo img{
+       width: 188px;
+       height: 40px;
+       margin: 0 0 0 10px;
+   }
+
+    .links{
+        margin: 0;
+    }
+
+    .links a:first-child {
+        padding: 10px 20px;
+    }
+
+    .detail {
+        margin: 35px 0 0 40px;
+    }
+
+    .bch {
+        height: 55px;
+        width: 55px;
+        margin: 0 0 0 5px;
+    }
+
+    .first-h4 {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    .second-h4 {
+        color: darkblue;
+        font-size: 28px;
+    }
+
+    .text-link{
+        margin: 30px 0 -25px 150px;
+    }
+
+    .input input {
+        width: 100px;
+        height: 31px;
+    }
+
+    .search a {
+        font-size: 15px;
+        letter-spacing: -0.18px;
+        line-height: 21px;
+    }
+
+    .usd{
+        padding: 6px 20px 6px 20px;
+        margin-left: 5px;
+    }
+    
+    .graph-pic img {
+        height: 220px;
+        width: 585px;
+        margin: 30px 30px 0 84px;
+    }
+    
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 515px;
+    }
+
+    .price-details h3 {
+        font-size: 28px;
+    }
+
+    .blog-post img {
+        height: 170px;
+        width: 100%;
+    }
+
+    .blog-post {
+        height: 315px;
+        margin: 35px 30px 40px 30px;
+    }
+
+    .low-con h3 {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .drop-down{
+        width: 617px;
+    }
+
+    .drop-down-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .drop-container {
+        margin: 50px auto 50px auto;
+        padding: 0 10px 0 0;
+        flex-wrap: wrap;
+    }
+
+    .drop-down-img-one{
+        margin: 0px 0 0 430px;
+    }
+
+    .drop-down-img-three {
+        margin: -16px 0 9px 334px;
+    }
+
+    .drop-down-img-two {
+        margin: -23px 0 18px 545px;
+    }
+
+    .drop-down-one {
+        margin: 0 0 6px 0;
+    }
+
+    .drop-down-two {
+        margin: -44px auto 50px auto;
+    }
+
+    .drop-down-img-three {
+        margin: -28px 0 28px 535px;
+    }
+
+    .reddit-post {
+        width: 570px;
+        height: 309px;
+        margin: 10px 20px;
+    }
+
+    .post{
+        height: 430px;
+    }
+
+    .post img{
+        height: 294px;
+    }
+
+    .drop-down-content {
+        width: 440px;
+    }
+
+    .uf {
+        padding: 45px 54px 0 52px;
+    }
+
+    .five{
+        margin: -66px 0 35px 0;
+    }
+
+    .mail {
+        margin: -10px 0 0 12px;
+    }
+
+    .download-app {
+        margin: -285px 0 0 551px;
+    }
+
+    .lower-footer p{
+        margin: 0 24px;
+    }
+
+    .icon-container {
+        position: fixed;
+        left: 92%;
+        top: 77%;
+    }
+}
+
+@media screen and (max-device-width: 950px) and (min-device-width: 900px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         margin: 0;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail{
+        margin: 35px 0 0 70px;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 150px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 35px 40px 0 0;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 220px;
+        width: 585px;
+        margin: 30px 30px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 455px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+ 
+     .blog-post img {
+         height: 170px;
+         width: 100%;
+     }
+ 
+     .blog-post {
+         height: 315px;
+         margin: 35px 30px 40px 30px;
+     }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 617px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one{
+         margin: 0px 0 0 430px;
+     }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 334px;
+     }
+ 
+     .drop-down-img-two {
+         margin: -23px 0 18px 545px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     }
+ 
+     .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px 56px 0 40px;
+     }
+ 
+     .five{
+         margin: -66px 0 35px 0;
+     }
+ 
+     .mail {
+         margin: -10px 0 0 12px;
+     }
+ 
+     .download-app {
+         margin: -285px 0 0 551px;
+     }
+ 
+     .lower-footer p {
+        margin: 0 15px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 92%;
+         top: 77%;
+     }
+ }
+
+ @media screen and (max-device-width: 900px) and (min-device-width: 850px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         margin: 0;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail{
+        margin: 35px 0 0 25px;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 90px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 35px 40px 0 0;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 220px;
+        width: 538px;
+        margin: 30px 30px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 403px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+ 
+     .blog-post img {
+         height: 170px;
+         width: 100%;
+     }
+ 
+     .blog-post {
+         height: 315px;
+         margin: 35px 30px 40px 30px;
+     }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 617px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one{
+         margin: 0px 0 0 430px;
+     }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 334px;
+     }
+ 
+     .drop-down-img-two {
+         margin: -23px 0 18px 545px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     }
+ 
+     .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px 40px 0 30px;
+    }
+ 
+     .five{
+         margin: -66px 0 35px 0;
+     }
+ 
+     .mail {
+        margin: -10px 0 0 2px;
+    }
+ 
+    .download-app {
+        margin: -285px 0 0 509px;
+    }
+
+     .download-app img {
+        width: 140px;
+        height: 42px;
+    }
+ 
+     .lower-footer p {
+        margin: 0 10px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 92%;
+         top: 77%;
+     }
+ }
+
+ @media screen and (max-device-width: 850px) and (min-device-width: 800px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         display: none;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail {
+        margin: 35px 0 0 8px;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 90px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 35px 14px 0 0;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 225px;
+        width: 745px;
+        margin: 30px 30px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 585px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+ 
+     .blog-post img {
+         height: 132px;
+         width: 100%;
+     }
+ 
+     .blog-post {
+         height: 263px;
+         margin: 35px 30px 40px 30px;
+     }
+
+     .blog-post h4{
+         font-size: 18px;
+     }
+
+     .blog-post p{
+        font-size: 14px;
+    }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 617px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one{
+         margin: 0px 0 0 430px;
+     }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 334px;
+     }
+ 
+     .drop-down-img-two {
+         margin: -23px 0 18px 545px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     }
+ 
+     .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px 65px 0 65px;
+    }
+ 
+    .five {
+        margin: 0px 0 35px 0;
+    }
+ 
+    .mail {
+        margin: 0px 0 22px 24px;
+    }
+ 
+    .download-app {
+        margin: -90px 0 0px 444px;
+    }
+
+    .download-app img {
+        width: 135px;
+        height: 38px;
+    }
+ 
+    .lower-footer p {
+        margin: 0px 6px;
+        font-size: 15px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 92%;
+         top: 77%;
+     }
+
+     .price-detail{
+         display: none;
+     }
+
+     .icon-link a {
+        text-decoration: none;
+        color: #838383;
+        margin: 0 40px;
+        font-size: 14px;
+     }
+
+     #menu-bar{
+         display: block;
+     }
+
+     .menu-bg{
+        display: block;
+    }
+
+    .lower-container{
+        display: none;
+    }
+
+    .low-container{
+        display: flex;
+        background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+        align-items: center;
+    }
+
+    .low-container h5{
+        font-size: 17px;
+        line-height: 22px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .low-container h6{
+       font-size: 14px;
+       color: #fff;
+    }
+
+    .low-container h3{
+        font-size: 20px;
+    }
+
+    .low-container h5 {
+        margin: 15px 262px 15px 103px;
+    }
+
+    .low-con-two h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-three h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-two h3{
+        margin: 0 0 0 -53px;
+    }
+
+    .low-con-three h3{
+        margin: 0 0 0 -50px;
+    }
+
+    .low-con-four h3{
+        margin: 0 0 0 -99px;
+    }
+
+    .low-con-five h3{
+        margin: 0 0 0 -54px;
+    }
+
+    .low-con-six h3{
+        margin: 0 0 0 -68px;
+    }
+
+     #menu{
+        width: 30px;
+        height: 25px;
+        margin: 50px 0 20px 20px;
+        cursor: pointer;
+     }
+     .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+     }
+
+     #bar1{
+        transform: translateY(-4px);
+     }
+
+     #bar3{
+        transform: translateY(4px);
+     }
+     .nav li a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 -90px;
+     }
+    
+     .nav li{
+        list-style: none;
+        padding: 16px 0;
+     }
+    
+     .nav{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+     }
+    
+     .menu-bg, #menu-bar{
+        top: 0;
+        left: 0;
+        position: absolute;
+     } 
+    
+     .menu-bg{
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle,#ffba66,#ffa02b,#fa8d07);
+        border-radius: 50%;
+        transition: 0.3s ease;
+        position: absolute;
+        left: 90%;
+     }
+    
+     #menu-bar{
+        z-index: 2;	
+        position: absolute;
+        left: 90%;
+     }
+    
+     .change-bg{
+        width: 600px;
+        height: 600px;
+        transform: translate(-60%,-30%);
+     }
+    
+     .change .bar{
+        background-color: white;
+     }
+    
+     .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+     }
+    
+     .change #bar3{
+        transform: translateY(-6px) rotate(45deg);
+     }
+    
+     .change #bar2{
+        opacity: 0;
+    } 
+    
+     .change{
+        display: block;
+     }
+ }
+
+ @media screen and (max-device-width: 800px) and (min-device-width: 750px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         display: none;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail {
+        margin: 15px auto;
+    }
+
+    .detail-search {
+        flex-wrap: wrap;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 90px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 0 auto;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+
+     .currency {
+        margin: 25px 141px;
+    }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 225px;
+        width: 699px;
+        margin: 30px 0px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 542px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+ 
+     .blog-post img {
+         height: 132px;
+         width: 100%;
+     }
+ 
+     .blog-post {
+         height: 253px;
+         margin: 35px 30px 40px 30px;
+     }
+
+     .blog-post h4{
+         font-size: 18px;
+     }
+
+     .blog-post p{
+        font-size: 14px;
+        margin: 7px 0 0 7px;
+    }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 617px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one{
+         margin: 0px 0 0 430px;
+     }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 334px;
+     }
+ 
+     .drop-down-img-two {
+         margin: -23px 0 18px 545px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     }
+ 
+     .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px auto;
+    }
+ 
+    .five {
+        margin: 0px 0 35px 0;
+    }
+ 
+    .mail {
+        margin: 0px 0 22px 24px;
+    }
+ 
+    .download-app {
+        margin: -90px 0 0px 444px;
+    }
+
+    .download-app img {
+        width: 135px;
+        height: 38px;
+    }
+
+    .lower-footer{
+        flex-wrap: wrap;
+    }
+ 
+    .lower-footer p {
+        margin: 0px 6px;
+        font-size: 15px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 90%;
+         top: 77%;
+     }
+
+     .price-detail{
+         display: none;
+     }
+
+     .icon-link a {
+        text-decoration: none;
+        color: #838383;
+        margin: 0 40px;
+        font-size: 14px;
+     }
+
+     #menu-bar{
+         display: block;
+     }
+
+     .menu-bg{
+        display: block;
+    }
+
+    .lower-container{
+        display: none;
+    }
+
+    .low-container{
+        display: flex;
+        background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+        align-items: center;
+    }
+
+    .low-container h5{
+        font-size: 17px;
+        line-height: 22px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .low-container h6{
+       font-size: 14px;
+       color: #fff;
+    }
+
+    .low-container h3{
+        font-size: 20px;
+    }
+
+    .low-container h5 {
+        margin: 15px 262px 15px 103px;
+    }
+
+    .low-con-two h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-three h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-two h3{
+        margin: 0 0 0 -53px;
+    }
+
+    .low-con-three h3{
+        margin: 0 0 0 -50px;
+    }
+
+    .low-con-four h3{
+        margin: 0 0 0 -99px;
+    }
+
+    .low-con-five h3{
+        margin: 0 0 0 -54px;
+    }
+
+    .low-con-six h3{
+        margin: 0 0 0 -68px;
+    }
+
+     #menu{
+        width: 30px;
+        height: 25px;
+        margin: 50px 0 20px 20px;
+        cursor: pointer;
+     }
+     .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+     }
+
+     #bar1{
+        transform: translateY(-4px);
+     }
+
+     #bar3{
+        transform: translateY(4px);
+     }
+     .nav li a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 -90px;
+     }
+    
+     .nav li{
+        list-style: none;
+        padding: 16px 0;
+     }
+    
+     .nav{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+     }
+    
+     .menu-bg, #menu-bar{
+        top: 0;
+        left: 0;
+        position: absolute;
+     } 
+    
+     .menu-bg{
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle,#ffba66,#ffa02b,#fa8d07);
+        border-radius: 50%;
+        transition: 0.3s ease;
+        position: absolute;
+        left: 90%;
+     }
+    
+     #menu-bar{
+        z-index: 2;	
+        position: absolute;
+        left: 90%;
+     }
+    
+     .change-bg{
+        width: 600px;
+        height: 600px;
+        transform: translate(-60%,-30%);
+     }
+    
+     .change .bar{
+        background-color: white;
+     }
+    
+     .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+     }
+    
+     .change #bar3{
+        transform: translateY(-6px) rotate(45deg);
+     }
+    
+     .change #bar2{
+        opacity: 0;
+    } 
+    
+     .change{
+        display: block;
+     }
+ }
+
+ @media screen and (max-device-width: 750px) and (min-device-width: 700px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         display: none;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail {
+        margin: 15px auto;
+    }
+
+    .detail-search {
+        flex-wrap: wrap;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 90px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 0 auto;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+
+     .currency {
+        margin: 25px 141px;
+    }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 225px;
+        width: 630px;
+        margin: 30px 0px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 480px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+ 
+     .blog-post img {
+         height: 132px;
+         width: 100%;
+     }
+ 
+     .blog-post {
+         height: 253px;
+         margin: 35px 20px 40px 20px;
+     }
+
+     .blog-post h4{
+         font-size: 18px;
+     }
+
+     .blog-post p{
+        font-size: 14px;
+        margin: 7px 0 0 7px;
+    }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 617px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one{
+         margin: 0px 0 0 430px;
+     }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 334px;
+     }
+ 
+     .drop-down-img-two {
+         margin: -23px 0 18px 545px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     }
+ 
+     .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px auto;
+    }
+ 
+    .five {
+        margin: 0px 0 35px 0;
+    }
+ 
+    .mail {
+        margin: 0px 0 22px 24px;
+    }
+ 
+    .download-app {
+        margin: -90px 0 0px 380px;
+    }
+
+    .download-app img {
+        width: 135px;
+        height: 38px;
+    }
+
+    .lower-footer{
+        flex-wrap: wrap;
+    }
+ 
+    .lower-footer p {
+        margin: 0px 6px;
+        font-size: 15px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 90%;
+         top: 77%;
+     }
+
+     .price-detail{
+         display: none;
+     }
+
+     .icon-link a {
+        text-decoration: none;
+        color: #838383;
+        margin: 0 40px;
+        font-size: 14px;
+     }
+
+     #menu-bar{
+         display: block;
+     }
+
+     .menu-bg{
+        display: block;
+    }
+
+    .lower-container{
+        display: none;
+    }
+
+    .low-container{
+        display: flex;
+        background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+        align-items: center;
+    }
+
+    .low-container h5{
+        font-size: 17px;
+        line-height: 22px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .low-container h6{
+       font-size: 14px;
+       color: #fff;
+    }
+
+    .low-container h3{
+        font-size: 20px;
+    }
+
+    .low-container h5 {
+        margin: 15px 262px 15px 103px;
+    }
+
+    .low-con-two h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-three h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-two h3{
+        margin: 0 0 0 -53px;
+    }
+
+    .low-con-three h3{
+        margin: 0 0 0 -50px;
+    }
+
+    .low-con-four h3{
+        margin: 0 0 0 -99px;
+    }
+
+    .low-con-five h3{
+        margin: 0 0 0 -54px;
+    }
+
+    .low-con-six h3{
+        margin: 0 0 0 -68px;
+    }
+
+     #menu{
+        width: 30px;
+        height: 25px;
+        margin: 50px 0 20px 20px;
+        cursor: pointer;
+     }
+     .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+     }
+
+     #bar1{
+        transform: translateY(-4px);
+     }
+
+     #bar3{
+        transform: translateY(4px);
+     }
+     .nav li a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 -90px;
+     }
+    
+     .nav li{
+        list-style: none;
+        padding: 16px 0;
+     }
+    
+     .nav{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+     }
+    
+     .menu-bg, #menu-bar{
+        top: 0;
+        left: 0;
+        position: absolute;
+     } 
+    
+     .menu-bg{
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle,#ffba66,#ffa02b,#fa8d07);
+        border-radius: 50%;
+        transition: 0.3s ease;
+        position: absolute;
+        left: 90%;
+     }
+    
+     #menu-bar{
+        z-index: 2;	
+        position: absolute;
+        left: 90%;
+     }
+    
+     .change-bg{
+        width: 600px;
+        height: 600px;
+        transform: translate(-60%,-30%);
+     }
+    
+     .change .bar{
+        background-color: white;
+     }
+    
+     .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+     }
+    
+     .change #bar3{
+        transform: translateY(-6px) rotate(45deg);
+     }
+    
+     .change #bar2{
+        opacity: 0;
+    } 
+    
+     .change{
+        display: block;
+     }
+ }
+
+ @media screen and (max-device-width: 700px) and (min-device-width: 650px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         display: none;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail {
+        margin: 15px auto;
+    }
+
+    .detail-search {
+        flex-wrap: wrap;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 90px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 0 auto;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+
+     .currency {
+        margin: 25px 60px;
+    }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 215px;
+        width: 565px;
+        margin: 30px 0px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 425px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+ 
+     .blog-post img {
+         height: 132px;
+         width: 100%;
+     }
+ 
+     .blog-post {
+         height: 253px;
+         margin: 35px 20px 40px 20px;
+     }
+
+     .blog-post h4{
+         font-size: 18px;
+     }
+
+     .blog-post p{
+        font-size: 14px;
+        margin: 7px 0 0 7px;
+    }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 525px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one {
+        margin: 0px 0 0 450px;
+    }
+
+    .drop-down-img-two {
+        margin: -23px 0 18px 450px;
+    }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 450px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     } 
+ 
+     /* .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }  */
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px 16px 0 16px;
+    }
+ 
+    .five {
+        margin: 0px 0 35px 0;
+    }
+ 
+    .mail {
+        margin: 0px 0 22px 24px;
+    }
+
+    .mail input {
+        width: 187px;
+    }
+ 
+    .download-app {
+        margin: -90px 0 0px 314px;
+    }
+
+    .download-app img {
+        width: 135px;
+        height: 38px;
+    }
+
+    .lower-footer{
+        flex-wrap: wrap;
+    }
+ 
+    .lower-footer p {
+        margin: 0px 6px;
+        font-size: 15px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 90%;
+         top: 77%;
+     }
+
+     .price-detail{
+         display: none;
+     }
+
+     .icon-link a {
+        text-decoration: none;
+        color: #838383;
+        margin: 0 40px;
+        font-size: 14px;
+     }
+
+     #menu-bar{
+         display: block;
+     }
+
+     .menu-bg{
+        display: block;
+    }
+
+    .lower-container{
+        display: none;
+    }
+
+    .low-container{
+        display: flex;
+        background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+        align-items: center;
+    }
+
+    .low-container h5{
+        font-size: 17px;
+        line-height: 22px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .low-container h6{
+       font-size: 14px;
+       color: #fff;
+    }
+
+    .low-container h3{
+        font-size: 20px;
+    }
+
+    .low-container h5 {
+        margin: 15px 262px 15px 103px;
+    }
+
+    .low-con-two h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-three h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-two h3{
+        margin: 0 0 0 -53px;
+    }
+
+    .low-con-three h3{
+        margin: 0 0 0 -50px;
+    }
+
+    .low-con-four h3{
+        margin: 0 0 0 -99px;
+    }
+
+    .low-con-five h3{
+        margin: 0 0 0 -54px;
+    }
+
+    .low-con-six h3{
+        margin: 0 0 0 -68px;
+    }
+
+     #menu{
+        width: 30px;
+        height: 25px;
+        margin: 50px 0 20px 20px;
+        cursor: pointer;
+     }
+     .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+     }
+
+     #bar1{
+        transform: translateY(-4px);
+     }
+
+     #bar3{
+        transform: translateY(4px);
+     }
+     .nav li a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 -90px;
+     }
+    
+     .nav li{
+        list-style: none;
+        padding: 16px 0;
+     }
+    
+     .nav{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+     }
+    
+     .menu-bg, #menu-bar{
+        top: 0;
+        left: 0;
+        position: absolute;
+     } 
+    
+     .menu-bg{
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle,#ffba66,#ffa02b,#fa8d07);
+        border-radius: 50%;
+        transition: 0.3s ease;
+        position: absolute;
+        left: 90%;
+     }
+    
+     #menu-bar{
+        z-index: 2;	
+        position: absolute;
+        left: 90%;
+     }
+    
+     .change-bg{
+        width: 600px;
+        height: 600px;
+        transform: translate(-60%,-30%);
+     }
+    
+     .change .bar{
+        background-color: white;
+     }
+    
+     .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+     }
+    
+     .change #bar3{
+        transform: translateY(-6px) rotate(45deg);
+     }
+    
+     .change #bar2{
+        opacity: 0;
+    } 
+    
+     .change{
+        display: block;
+     }
+ }
+
+ @media screen and (max-device-width: 650px) and (min-device-width: 600px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         display: none;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail {
+        margin: 15px auto;
+    }
+
+    .detail-search {
+        flex-wrap: wrap;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 90px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 0 auto;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+
+     .currency {
+        margin: 25px 60px;
+    }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 215px;
+        width: 565px;
+        margin: 30px 0px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 425px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+
+     .blog-post {
+        height: 215px;
+        margin: 35px 20px 40px 20px;
+    }
+ 
+     .blog-post img {
+         height: 100px;
+         width: 100%;
+     }
+
+     .blog-post h4{
+         font-size: 18px;
+     }
+
+     .blog-post p{
+        font-size: 14px;
+        margin: 7px 0 0 7px;
+    }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 525px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one {
+        margin: 0px 0 0 450px;
+    }
+
+    .drop-down-img-two {
+        margin: -23px 0 18px 450px;
+    }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 450px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     } 
+ 
+     /* .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }  */
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px 11px 0 11px;
+    }
+ 
+    .five {
+        margin: -90px 0 35px 10px;
+    }
+ 
+    .mail {
+        margin: 0px 0 22px 24px;
+    }
+
+    .mail input {
+        width: 187px;
+    }
+ 
+    .download-app {
+        margin: -90px 0 0px 314px;
+    }
+
+    .download-app img {
+        width: 135px;
+        height: 38px;
+    }
+
+    .lower-footer{
+        flex-wrap: wrap;
+    }
+ 
+    .lower-footer p {
+        margin: 0px 6px;
+        font-size: 15px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 88%;
+         top: 78%;
+     }
+
+     .price-detail{
+         display: none;
+     }
+
+     .icon-link a {
+        text-decoration: none;
+        color: #838383;
+        margin: 0 40px;
+        font-size: 14px;
+     }
+
+     #menu-bar{
+         display: block;
+     }
+
+     .menu-bg{
+        display: block;
+    }
+
+    .lower-container{
+        display: none;
+    }
+
+    .low-container{
+        display: flex;
+        background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+        align-items: center;
+    }
+
+    .low-container h5{
+        font-size: 17px;
+        line-height: 22px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .low-container h6{
+       font-size: 14px;
+       color: #fff;
+    }
+
+    .low-container h3{
+        font-size: 20px;
+    }
+
+    .low-container h5 {
+        margin: 15px 262px 15px 103px;
+    }
+
+    .low-con-two h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-three h5{
+        margin: 15px 262px 15px 92px;
+    }
+
+    .low-con-two h3{
+        margin: 0 0 0 -53px;
+    }
+
+    .low-con-three h3{
+        margin: 0 0 0 -50px;
+    }
+
+    .low-con-four h3{
+        margin: 0 0 0 -99px;
+    }
+
+    .low-con-five h3{
+        margin: 0 0 0 -54px;
+    }
+
+    .low-con-six h3{
+        margin: 0 0 0 -68px;
+    }
+
+     #menu{
+        width: 30px;
+        height: 25px;
+        margin: 50px 0 20px 0;
+        cursor: pointer;
+     }
+     .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+     }
+
+     #bar1{
+        transform: translateY(-4px);
+     }
+
+     #bar3{
+        transform: translateY(4px);
+     }
+     .nav li a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 -90px;
+     }
+    
+     .nav li{
+        list-style: none;
+        padding: 16px 0;
+     }
+    
+     .nav{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+     }
+    
+     .menu-bg, #menu-bar{
+        top: 0;
+        left: 0;
+        position: absolute;
+     } 
+    
+     .menu-bg{
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle,#ffba66,#ffa02b,#fa8d07);
+        border-radius: 50%;
+        transition: 0.3s ease;
+        position: absolute;
+        left: 90%;
+     }
+    
+     #menu-bar{
+        z-index: 2;	
+        position: absolute;
+        left: 90%;
+     }
+    
+     .change-bg{
+        width: 600px;
+        height: 600px;
+        transform: translate(-60%,-30%);
+     }
+    
+     .change .bar{
+        background-color: white;
+     }
+    
+     .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+     }
+    
+     .change #bar3{
+        transform: translateY(-6px) rotate(45deg);
+     }
+    
+     .change #bar2{
+        opacity: 0;
+    } 
+    
+     .change{
+        display: block;
+     }
+ }
+
+ @media screen and (max-device-width: 600px) and (min-device-width: 550px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         display: none;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail {
+        margin: 15px auto;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+    .detail-search {
+        flex-wrap: wrap;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 90px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 0 auto;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+
+     .currency {
+        margin: 25px 60px;
+    }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 200px;
+        width: 490px;
+        margin: 30px 0px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 355px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+
+     .blog-post {
+        height: 260px;
+        margin: 35px 25px 40px 25px;
+    }
+ 
+     .blog-post img {
+         height: 150px;
+         width: 100%;
+     }
+
+     .blog-post h4{
+         font-size: 18px;
+     }
+
+     .blog-post p{
+        font-size: 14px;
+        margin: 7px 0 0 7px;
+    }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 525px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one {
+        margin: 0px 0 0 450px;
+    }
+
+    .drop-down-img-two {
+        margin: -23px 0 18px 450px;
+    }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 450px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     } 
+ 
+     /* .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }  */
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px 60px 0 60px;
+    }
+
+    .three{
+        margin: -98px  0 0 0;
+    }
+ 
+    .five {
+        margin: -90px 0 35px 10px;
+    }
+ 
+    .mail {
+        margin: 0px 0 22px 24px;
+    }
+
+    .mail input {
+        width: 187px;
+    }
+ 
+    .download-app {
+        margin: -85px 0 0px 308px;
+    }
+
+    .download-app img {
+        width: 105px;
+        height: 33px;
+    }
+
+    .lower-footer{
+        flex-wrap: wrap;
+    }
+ 
+    .lower-footer p {
+        margin: 0px 6px;
+        font-size: 15px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 88%;
+         top: 78%;
+     }
+
+     .price-detail{
+         display: none;
+     }
+
+     .icon-link a {
+        text-decoration: none;
+        color: #838383;
+        margin: 0 40px;
+        font-size: 14px;
+     }
+
+     #menu-bar{
+         display: block;
+     }
+
+     .menu-bg{
+        display: block;
+    }
+
+    .lower-container{
+        display: none;
+    }
+
+    .low-container{
+        display: flex;
+        background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+        align-items: center;
+    }
+
+    .low-container h5{
+        font-size: 17px;
+        line-height: 22px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .low-container h6{
+       font-size: 14px;
+       color: #fff;
+    }
+
+    .low-container h3{
+        font-size: 20px;
+    }
+
+    .low-container h5 {
+        margin: 15px 262px 15px 62px;
+    }
+
+    .low-con-two h5{
+        margin: 15px 262px 15px 50px;
+    }
+
+    .low-con-three h5{
+        margin: 15px 262px 15px 50px;
+    }
+
+    .low-con-two h3{
+        margin: 0 0 0 -53px;
+    }
+
+    .low-con-three h3{
+        margin: 0 0 0 -50px;
+    }
+
+    .low-con-four h3{
+        margin: 0 0 0 -99px;
+    }
+
+    .low-con-five h3{
+        margin: 0 0 0 -54px;
+    }
+
+    .low-con-six h3{
+        margin: 0 0 0 -68px;
+    }
+
+     #menu{
+        width: 30px;
+        height: 25px;
+        margin: 50px 0 20px 0;
+        cursor: pointer;
+     }
+     .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+     }
+
+     #bar1{
+        transform: translateY(-4px);
+     }
+
+     #bar3{
+        transform: translateY(4px);
+     }
+     .nav li a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 -90px;
+     }
+    
+     .nav li{
+        list-style: none;
+        padding: 16px 0;
+     }
+    
+     .nav{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+     }
+    
+     .menu-bg, #menu-bar{
+        top: 0;
+        left: 0;
+        position: absolute;
+     } 
+    
+     .menu-bg{
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle,#ffba66,#ffa02b,#fa8d07);
+        border-radius: 50%;
+        transition: 0.3s ease;
+        position: absolute;
+        left: 90%;
+     }
+    
+     #menu-bar{
+        z-index: 2;	
+        position: absolute;
+        left: 90%;
+     }
+    
+     .change-bg{
+        width: 600px;
+        height: 600px;
+        transform: translate(-60%,-30%);
+     }
+    
+     .change .bar{
+        background-color: white;
+     }
+    
+     .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+     }
+    
+     .change #bar3{
+        transform: translateY(-6px) rotate(45deg);
+     }
+    
+     .change #bar2{
+        opacity: 0;
+    } 
+    
+     .change{
+        display: block;
+     }
+ }
+
+ @media screen and (max-device-width: 550px) and (min-device-width: 500px){
+    
+    .logo img{
+        margin: 0 0 0 2px;
+    }
+
+    .navbar a {
+        margin: 6px;
+        padding: 6px;
+    }
+ 
+     .links{
+         display: none;
+     }
+ 
+     .links a:first-child {
+         padding: 10px 12px;
+     }
+ 
+     .detail {
+        margin: 15px auto;
+    }
+
+    .detail-4, .detail-5{
+        display: none;
+    }
+
+    .detail-search {
+        flex-wrap: wrap;
+    }
+ 
+     .bch {
+         height: 55px;
+         width: 55px;
+         margin: 0 0 0 5px;
+     }
+ 
+     .first-h4 {
+         font-size: 28px;
+         font-weight: 500;
+         line-height: 28px;
+     }
+ 
+     .second-h4 {
+         color: darkblue;
+         font-size: 28px;
+     }
+ 
+     .text-link{
+         margin: 30px 0 -25px 90px;
+     }
+ 
+     .input input {
+         width: 100px;
+         height: 31px;
+     }
+
+     .search {
+        margin: 0 auto;
+    }
+ 
+     .search a {
+         font-size: 15px;
+         letter-spacing: -0.18px;
+         line-height: 21px;
+     }
+
+     .currency {
+        margin: 25px 12px;
+    }
+ 
+     .usd{
+         padding: 6px 20px 6px 20px;
+         margin-left: 5px;
+     }
+     
+     .graph-pic img {
+        height: 200px;
+        width: 455px;
+        margin: 30px 0px 0 22px;
+    }
+     
+    .outer-link {
+        margin: 30px 0 0 0;
+        padding: 60px 0 0 315px;
+    }
+ 
+     .price-details h3 {
+         font-size: 28px;
+     }
+
+     .blog-post {
+        height: 260px;
+        margin: 35px 25px 40px 25px;
+    }
+ 
+     .blog-post img {
+         height: 150px;
+         width: 100%;
+     }
+
+     .blog-post h4{
+         font-size: 18px;
+     }
+
+     .blog-post p{
+        font-size: 14px;
+        margin: 7px 0 0 7px;
+    }
+ 
+     .low-con h3 {
+         font-size: 28px;
+         color: #fff;
+     }
+ 
+     .drop-down{
+         width: 400px;
+         padding: 20px;
+     }
+
+     .drop-down h3{
+         font-size: 28px;
+     }
+ 
+     .drop-down-menu {
+         display: flex;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-container {
+         margin: 50px auto 50px auto;
+         padding: 0 10px 0 0;
+         flex-wrap: wrap;
+     }
+ 
+     .drop-down-img-one {
+        margin: 0px 0 0 360px;
+    }
+
+    .drop-down-img-two {
+        margin: -23px 0 18px 360px;
+    }
+ 
+     .drop-down-img-three {
+         margin: -16px 0 9px 356px;
+     }
+ 
+     .drop-down-one {
+         margin: 0 0 6px 0;
+     }
+ 
+     .drop-down-two {
+         margin: -44px auto 50px auto;
+     } 
+ 
+     /* .drop-down-img-three {
+         margin: -28px 0 28px 535px;
+     }  */
+ 
+     .reddit-post {
+         width: 570px;
+         height: 309px;
+         margin: 10px 20px;
+     }
+ 
+     .post{
+         height: 430px;
+     }
+ 
+     .post img{
+         height: 294px;
+     }
+ 
+     .drop-down-content {
+         width: 440px;
+     }
+ 
+     .uf {
+        padding: 45px 60px 0 60px;
+    }
+
+    .three{
+        margin: -98px  0 0 0;
+    }
+ 
+    .five {
+        margin: -90px 0 35px 10px;
+    }
+ 
+    .mail {
+        margin: 0px 0 22px 24px;
+    }
+
+    .mail input {
+        width: 187px;
+    }
+ 
+    .download-app {
+        margin: -85px 0 0px 308px;
+    }
+
+    .download-app img {
+        width: 105px;
+        height: 33px;
+    }
+
+    .lower-footer{
+        flex-wrap: wrap;
+    }
+ 
+    .lower-footer p {
+        margin: 0px 6px;
+        font-size: 15px;
+    }
+ 
+     .icon-container {
+         position: fixed;
+         left: 88%;
+         top: 78%;
+     }
+
+     .price-detail{
+         display: none;
+     }
+
+     .icon-link a {
+        text-decoration: none;
+        color: #838383;
+        margin: 0 40px;
+        font-size: 14px;
+     }
+
+     #menu-bar{
+         display: block;
+     }
+
+     .menu-bg{
+        display: block;
+    }
+
+    .lower-container{
+        display: none;
+    }
+
+    .low-container{
+        display: flex;
+        background: -webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+        align-items: center;
+    }
+
+    .low-container h5{
+        font-size: 17px;
+        line-height: 22px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .low-container h6{
+       font-size: 14px;
+       color: #fff;
+    }
+
+    .low-container h3{
+        font-size: 20px;
+    }
+
+    .low-container h5 {
+        margin: 15px 262px 15px 38px;
+    }
+
+    .low-con-two h5{
+        margin: 15px 262px 15px 28px;
+    }
+
+    .low-con-three h5{
+        margin: 15px 262px 15px 28px;
+    }
+
+    .low-con-two h3{
+        margin: 0 0 0 -53px;
+    }
+
+    .low-con-three h3{
+        margin: 0 0 0 -50px;
+    }
+
+    .low-con-four h3{
+        margin: 0 0 0 -99px;
+    }
+
+    .low-con-five h3{
+        margin: 0 0 0 -54px;
+    }
+
+    .low-con-six h3{
+        margin: 0 0 0 -68px;
+    }
+
+     #menu{
+        width: 30px;
+        height: 25px;
+        margin: 50px 0 20px 0;
+        cursor: pointer;
+     }
+     .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+     }
+
+     #bar1{
+        transform: translateY(-4px);
+     }
+
+     #bar3{
+        transform: translateY(4px);
+     }
+     .nav li a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 -90px;
+     }
+    
+     .nav li{
+        list-style: none;
+        padding: 16px 0;
+     }
+    
+     .nav{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+     }
+    
+     .menu-bg, #menu-bar{
+        top: 0;
+        left: 0;
+        position: absolute;
+     } 
+    
+     .menu-bg{
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle,#ffba66,#ffa02b,#fa8d07);
+        border-radius: 50%;
+        transition: 0.3s ease;
+        position: absolute;
+        left: 90%;
+     }
+    
+     #menu-bar{
+        z-index: 2;	
+        position: absolute;
+        left: 90%;
+     }
+    
+     .change-bg{
+        width: 600px;
+        height: 600px;
+        transform: translate(-60%,-30%);
+     }
+    
+     .change .bar{
+        background-color: white;
+     }
+    
+     .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+     }
+    
+     .change #bar3{
+        transform: translateY(-6px) rotate(45deg);
+     }
+    
+     .change #bar2{
+        opacity: 0;
+    } 
+    
+     .change{
+        display: block;
+     }
+ }

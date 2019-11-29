@@ -50,7 +50,7 @@ $(document).ready(function(){
       dots: true,
       responsive: [
         {
-          breakpoint: 500,
+          breakpoint: 600,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -66,3 +66,9 @@ $(document).ready(function(){
       ]
     }); 
   });
+
+  function onClickMenu(){
+    document.getElementById("menu").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+  }
